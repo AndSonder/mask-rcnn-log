@@ -1,0 +1,1043 @@
+Warning: Unable to use numba in PP-Tracking, please install numba, for example(python3.7): `pip install numba==0.56.4`
+Warning: Unable to use numba in PP-Tracking, please install numba, for example(python3.7): `pip install numba==0.56.4`
+loading annotations into memory...
+Done (t=2.86s)
+creating index...
+index created!
+[09/19 01:02:55] ppdet.data.source.coco INFO: Load [25000 samples valid, 0 samples invalid] in file dataset/coco/annotations/instances_train2017.json.
+[09/19 01:02:55] reader WARNING: Shared memory size is less than 1G, disable shared_memory in DataLoader
+[09/19 01:03:01] ppdet.utils.checkpoint INFO: Finish loading model weights: /root/.cache/paddle/weights/mask_rcnn_r50_1x_coco.pdparams
+>>> [1024]
+[09/19 01:03:02] ppdet.engine INFO: Epoch: [0] [    0/12500] learning_rate: 0.000000 loss_mask: 0.650576 loss_rpn_cls: 0.055453 loss_rpn_reg: 0.069787 loss_bbox_cls: 0.062951 loss_bbox_reg: 0.090932 loss: 0.929700 eta: 5:14:46 batch_cost: 1.5109 data_cost: 0.0007 ips: 1.3237 images/s
+>>> [1024]
+[09/19 01:03:02] ppdet.engine INFO: Epoch: [0] [    1/12500] learning_rate: 0.000000 loss_mask: 0.914879 loss_rpn_cls: 0.052945 loss_rpn_reg: 0.090220 loss_bbox_cls: 0.106363 loss_bbox_reg: 0.188505 loss: 1.352912 eta: 3:08:31 batch_cost: 0.2991 data_cost: 0.0006 ips: 6.6869 images/s
+>>> [1024]
+[09/19 01:03:03] ppdet.engine INFO: Epoch: [0] [    2/12500] learning_rate: 0.000000 loss_mask: 0.749635 loss_rpn_cls: 0.026517 loss_rpn_reg: 0.052576 loss_bbox_cls: 0.140105 loss_bbox_reg: 0.195501 loss: 1.164333 eta: 2:25:58 batch_cost: 0.2923 data_cost: 0.0011 ips: 6.8430 images/s
+>>> [1024]
+[09/19 01:03:03] ppdet.engine INFO: Epoch: [0] [    3/12500] learning_rate: 0.000000 loss_mask: 0.803448 loss_rpn_cls: 0.075245 loss_rpn_reg: 0.217121 loss_bbox_cls: 0.128138 loss_bbox_reg: 0.225426 loss: 1.449378 eta: 2:05:17 batch_cost: 0.3039 data_cost: 0.0008 ips: 6.5801 images/s
+>>> [1024]
+[09/19 01:03:03] ppdet.engine INFO: Epoch: [0] [    4/12500] learning_rate: 0.000000 loss_mask: 0.572778 loss_rpn_cls: 0.147827 loss_rpn_reg: 0.212982 loss_bbox_cls: 0.390289 loss_bbox_reg: 0.317358 loss: 1.641234 eta: 1:52:56 batch_cost: 0.3050 data_cost: 0.0008 ips: 6.5566 images/s
+>>> [1024]
+[09/19 01:03:04] ppdet.engine INFO: Epoch: [0] [    5/12500] learning_rate: 0.000001 loss_mask: 0.547019 loss_rpn_cls: 0.092780 loss_rpn_reg: 0.106516 loss_bbox_cls: 0.180123 loss_bbox_reg: 0.226093 loss: 1.152530 eta: 1:43:43 batch_cost: 0.2773 data_cost: 0.0008 ips: 7.2122 images/s
+>>> [1024]
+[09/19 01:03:04] ppdet.engine INFO: Epoch: [0] [    6/12500] learning_rate: 0.000001 loss_mask: 0.886850 loss_rpn_cls: 0.045895 loss_rpn_reg: 0.130238 loss_bbox_cls: 0.076744 loss_bbox_reg: 0.138279 loss: 1.278005 eta: 1:37:00 batch_cost: 0.2726 data_cost: 0.0004 ips: 7.3375 images/s
+>>> [1024]
+[09/19 01:03:04] ppdet.engine INFO: Epoch: [0] [    7/12500] learning_rate: 0.000001 loss_mask: 0.639178 loss_rpn_cls: 0.086958 loss_rpn_reg: 0.031125 loss_bbox_cls: 0.129093 loss_bbox_reg: 0.221436 loss: 1.107790 eta: 1:32:30 batch_cost: 0.2931 data_cost: 0.0007 ips: 6.8243 images/s
+>>> [1024]
+[09/19 01:03:04] ppdet.engine INFO: Epoch: [0] [    8/12500] learning_rate: 0.000001 loss_mask: 0.784673 loss_rpn_cls: 0.031020 loss_rpn_reg: 0.268109 loss_bbox_cls: 0.055698 loss_bbox_reg: 0.078633 loss: 1.218134 eta: 1:28:22 batch_cost: 0.2658 data_cost: 0.0004 ips: 7.5251 images/s
+>>> [1024]
+[09/19 01:03:05] ppdet.engine INFO: Epoch: [0] [    9/12500] learning_rate: 0.000001 loss_mask: 0.706932 loss_rpn_cls: 0.158805 loss_rpn_reg: 0.204335 loss_bbox_cls: 0.201355 loss_bbox_reg: 0.192006 loss: 1.463432 eta: 1:25:42 batch_cost: 0.2973 data_cost: 0.0004 ips: 6.7276 images/s
+>>> [1024]
+[09/19 01:03:06] ppdet.engine INFO: Epoch: [0] [   10/12500] learning_rate: 0.000001 loss_mask: 0.636209 loss_rpn_cls: 0.121515 loss_rpn_reg: 0.116271 loss_bbox_cls: 0.281558 loss_bbox_reg: 0.235717 loss: 1.391272 eta: 1:36:47 batch_cost: 0.9974 data_cost: 0.6855 ips: 2.0052 images/s
+>>> [1024]
+[09/19 01:03:06] ppdet.engine INFO: Epoch: [0] [   11/12500] learning_rate: 0.000001 loss_mask: 0.971304 loss_rpn_cls: 0.059544 loss_rpn_reg: 0.125709 loss_bbox_cls: 0.206394 loss_bbox_reg: 0.182184 loss: 1.545135 eta: 1:33:53 batch_cost: 0.2978 data_cost: 0.0007 ips: 6.7151 images/s
+>>> [1024]
+[09/19 01:03:06] ppdet.engine INFO: Epoch: [0] [   12/12500] learning_rate: 0.000001 loss_mask: 0.843302 loss_rpn_cls: 0.049953 loss_rpn_reg: 0.115015 loss_bbox_cls: 0.255404 loss_bbox_reg: 0.291039 loss: 1.554713 eta: 1:31:34 batch_cost: 0.3076 data_cost: 0.0009 ips: 6.5026 images/s
+>>> [1024]
+[09/19 01:03:07] ppdet.engine INFO: Epoch: [0] [   13/12500] learning_rate: 0.000001 loss_mask: 1.032111 loss_rpn_cls: 0.044972 loss_rpn_reg: 0.083253 loss_bbox_cls: 0.120035 loss_bbox_reg: 0.145209 loss: 1.425580 eta: 1:29:18 batch_cost: 0.2874 data_cost: 0.0006 ips: 6.9597 images/s
+>>> [1024]
+[09/19 01:03:07] ppdet.engine INFO: Epoch: [0] [   14/12500] learning_rate: 0.000001 loss_mask: 0.401617 loss_rpn_cls: 0.066587 loss_rpn_reg: 0.099175 loss_bbox_cls: 0.184960 loss_bbox_reg: 0.271851 loss: 1.024190 eta: 1:27:29 batch_cost: 0.2988 data_cost: 0.0006 ips: 6.6940 images/s
+>>> [1024]
+[09/19 01:03:07] ppdet.engine INFO: Epoch: [0] [   15/12500] learning_rate: 0.000002 loss_mask: 1.159430 loss_rpn_cls: 0.047748 loss_rpn_reg: 0.042423 loss_bbox_cls: 0.141284 loss_bbox_reg: 0.235254 loss: 1.626138 eta: 1:25:58 batch_cost: 0.3046 data_cost: 0.0011 ips: 6.5653 images/s
+>>> [1024]
+[09/19 01:03:07] ppdet.engine INFO: Epoch: [0] [   16/12500] learning_rate: 0.000002 loss_mask: 0.899329 loss_rpn_cls: 0.063684 loss_rpn_reg: 0.073156 loss_bbox_cls: 0.114303 loss_bbox_reg: 0.248734 loss: 1.399206 eta: 1:24:37 batch_cost: 0.3032 data_cost: 0.0006 ips: 6.5967 images/s
+>>> [1024]
+[09/19 01:03:08] ppdet.engine INFO: Epoch: [0] [   17/12500] learning_rate: 0.000002 loss_mask: 0.875135 loss_rpn_cls: 0.027432 loss_rpn_reg: 0.067523 loss_bbox_cls: 0.088707 loss_bbox_reg: 0.128049 loss: 1.186846 eta: 1:23:17 batch_cost: 0.2928 data_cost: 0.0006 ips: 6.8295 images/s
+>>> [1024]
+[09/19 01:03:08] ppdet.engine INFO: Epoch: [0] [   18/12500] learning_rate: 0.000002 loss_mask: 0.452519 loss_rpn_cls: 0.118764 loss_rpn_reg: 0.269338 loss_bbox_cls: 0.107548 loss_bbox_reg: 0.105042 loss: 1.053211 eta: 1:22:14 batch_cost: 0.3048 data_cost: 0.0005 ips: 6.5617 images/s
+>>> [1024]
+-------------------Device Summary-------------------
+------------------------------  --------------------  
+Device                          Utilization (%)       
+------------------------------  --------------------  
+CPU(Process)                    106.34                
+CPU(System)                     6.28                  
+GPU0                            75.46                 
+------------------------------  --------------------  
+Note:
+CPU(Process) Utilization = Current process CPU time over all cpu cores / elapsed time, so max utilization can be reached 100% * number of cpu cores.
+CPU(System) Utilization = All processes CPU time over all cpu cores(busy time) / (busy time + idle time).
+GPU Utilization = Current process GPU time / elapsed time.
+----------------------------------------------------
+
+
+---------------------------------------------Overview Summary---------------------------------------------
+Time unit: ms
+-------------------------  -------------------------  -------------------------  -------------------------  
+Event Type                 Calls                      CPU Time                   Ratio (%)                  
+-------------------------  -------------------------  -------------------------  -------------------------  
+ProfileStep                10                         3006.89                    100.00                     
+  UserDefined              8999                       2451.83                    81.54                      
+  Operator                 21034                      2356.32                    78.36                      
+  CudaRuntime              90794                      2016.10                    67.05                      
+  Forward                  10                         1586.26                    52.75                      
+  OperatorInner            28106                      1374.69                    45.72                      
+  PythonUserDefined        200                        1308.67                    43.52                      
+  Backward                 10                         1141.91                    37.98                      
+  Dataloader               9                          6.32                       0.21                       
+-------------------------  -------------------------  -------------------------  -------------------------  
+                           Calls                      GPU Time                   Ratio (%)                  
+-------------------------  -------------------------  -------------------------  -------------------------  
+  Kernel                   17974                      2268.88                    75.46                      
+  Memcpy                   3025                       111.05                     3.69                       
+  Memset                   964                        4.25                       0.14                       
+-------------------------  -------------------------  -------------------------  -------------------------  
+Note:
+In this table, We sum up all collected events in terms of event type.
+The time of events collected on host are presented as CPU Time, and as GPU Time if on device.
+Events with different types may overlap or inclusion, e.g. Operator includes OperatorInner, so the sum of ratios is not 100%.
+The time of events in the same type with overlap will not calculate twice, and all time is summed after merged.
+Example:
+Thread 1:
+  Operator: |___________|     |__________|
+Thread 2:
+  Operator:   |____________|     |___|
+After merged:
+  Result:   |______________|  |__________|
+
+----------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------Model Summary--------------------------------------------------
+Time unit: ms
+---------------  ------  -------------------------------------------  -------------------------------------------  
+Name             Calls   CPU Total / Avg / Max / Min / Ratio(%)       GPU Total / Avg / Max / Min / Ratio(%)       
+---------------  ------  -------------------------------------------  -------------------------------------------  
+ProfileStep      10      3006.89 / 300.69 / 310.99 / 288.02 / 100.00  2268.88 / 226.89 / 247.63 / 208.07 / 100.00  
+  Dataloader     9       6.32 / 0.70 / 1.04 / 0.48 / 0.21             0.00 / 0.00 / 0.00 / 0.00 / 0.00             
+  Forward        10      1586.26 / 158.63 / 169.38 / 149.78 / 52.75   942.90 / 94.29 / 102.39 / 86.93 / 41.56      
+  Backward       10      1141.91 / 114.19 / 118.75 / 110.36 / 37.98   1307.65 / 130.76 / 143.70 / 119.27 / 57.63   
+  Others         -       272.41 / - / - / - / 9.06                    18.33 / - / - / - / 0.81                     
+---------------  ------  -------------------------------------------  -------------------------------------------  
+Note:
+In this table, GPU time is the sum of all device(GPU) events called in the phase.
+Unlike overview summary, if two device(GPU) events execute on different streams with overlap time, we sum them directly here.
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------Operator Summary----------------------------------------------------------------------
+Time unit: ms
+----------------------------------------------------  ------  ----------------------------------------  ----------------------------------------  ----------  
+Name                                                  Calls   CPU Total / Avg / Max / Min / Ratio(%)    GPU Total / Avg / Max / Min / Ratio(%)    FLOPs       
+----------------------------------------------------  ------  ----------------------------------------  ----------------------------------------  ----------  
+-----------------------------------------------------------------Thread: All threads merged-----------------------------------------------------------------
+conv2d dygraph                                        1140    433.48 / 0.38 / 3.52 / 0.09 / 12.30       828.52 / 0.73 / 5.83 / 0.05 / 24.33       0           
+  conv2d infer_meta                                   570     1.73 / 0.00 / 0.04 / 0.00 / 0.40          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  conv2d compute                                      570     192.41 / 0.34 / 1.22 / 0.08 / 44.39       386.72 / 0.68 / 4.31 / 0.05 / 46.68       -           
+    void cudnn::ops::nchwToNhwcKernel<__half, __h...  591     - / - / - / - / -                         65.98 / 0.11 / 1.12 / 0.00 / 17.06        -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  99      - / - / - / - / -                         119.31 / 1.21 / 2.56 / 0.04 / 30.85       -           
+    void cudnn::ops::nhwcToNchwKernel<__half, __h...  229     - / - / - / - / -                         45.10 / 0.20 / 0.66 / 0.00 / 11.66        -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  25      - / - / - / - / -                         56.43 / 2.26 / 2.70 / 0.12 / 14.59        -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  47      - / - / - / - / -                         39.57 / 0.84 / 2.54 / 0.13 / 10.23        -           
+    MEMSET                                            47      - / - / - / - / -                         0.30 / 0.01 / 0.03 / 0.00 / 0.08          -           
+    void tensorTransformGeneric<__half, __half, f...  18      - / - / - / - / -                         0.53 / 0.03 / 0.03 / 0.03 / 0.14          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  13      - / - / - / - / -                         0.50 / 0.04 / 0.05 / 0.03 / 0.13          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  2       - / - / - / - / -                         0.28 / 0.14 / 0.23 / 0.06 / 0.07          -           
+    void cask_cudnn::computeOffsetsKernel<false, ...  338     - / - / - / - / -                         1.17 / 0.00 / 0.01 / 0.00 / 0.30          -           
+    volta_fp16_s884cudnn_fp16_128x128_ldg8_relu_f...  116     - / - / - / - / -                         18.44 / 0.16 / 1.41 / 0.08 / 4.77         -           
+    volta_fp16_s884cudnn_fp16_256x64_ldg8_relu_f2...  67      - / - / - / - / -                         11.42 / 0.17 / 1.57 / 0.07 / 2.95         -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  12      - / - / - / - / -                         2.49 / 0.21 / 0.44 / 0.13 / 0.64          -           
+    volta_fp16_s884cudnn_fp16_256x128_ldg8_relu_f...  148     - / - / - / - / -                         17.63 / 0.12 / 0.22 / 0.05 / 4.56         -           
+    void cudnn::ops::genericTranspose_kernel<__ha...  9       - / - / - / - / -                         0.10 / 0.01 / 0.01 / 0.01 / 0.03          -           
+    void cask_cudnn::first_layer_fwd_kernel<4, 7,...  9       - / - / - / - / -                         2.45 / 0.27 / 0.37 / 0.17 / 0.63          -           
+    void nchwAddPaddingKernel<__half, __half, flo...  4       - / - / - / - / -                         0.02 / 0.00 / 0.01 / 0.00 / 0.00          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  11      - / - / - / - / -                         1.45 / 0.13 / 0.15 / 0.13 / 0.38          -           
+    volta_fp16_scudnn_fp16_128x64_relu_medium_nn_v1   7       - / - / - / - / -                         1.91 / 0.27 / 0.63 / 0.07 / 0.49          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  11      - / - / - / - / -                         0.61 / 0.06 / 0.07 / 0.04 / 0.16          -           
+    void cudnn::cnn::kern_precompute_indices<fals...  3       - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 0.00          -           
+    void precomputed_convolve_sgemm<__half, 128, ...  3       - / - / - / - / -                         1.03 / 0.34 / 0.35 / 0.34 / 0.27          -           
+  conv2d node_creation                                460     2.26 / 0.00 / 0.02 / 0.00 / 0.52          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+Conv2dGradNodeFinal                                   460     226.90 / 0.49 / 1.92 / 0.17 / 6.44        748.92 / 1.63 / 9.47 / 0.14 / 21.99       0           
+  conv2d_grad infer_meta                              460     0.26 / 0.00 / 0.00 / 0.00 / 0.12          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  conv2d_grad compute                                 460     218.52 / 0.48 / 1.90 / 0.16 / 96.31       726.11 / 1.58 / 9.47 / 0.14 / 96.95       -           
+    void cudnn::ops::nchwToNhwcKernel<__half, __h...  1400    - / - / - / - / -                         156.59 / 0.11 / 1.12 / 0.00 / 21.57       -           
+    MEMSET                                            877     - / - / - / - / -                         3.78 / 0.00 / 0.05 / 0.00 / 0.52          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  1       - / - / - / - / -                         0.21 / 0.21 / 0.21 / 0.21 / 0.03          -           
+    void xmma_cudnn::gemm::split_k_kernel<xmma_cu...  1       - / - / - / - / -                         0.02 / 0.02 / 0.02 / 0.02 / 0.00          -           
+    void dgrad_2d<11>(unsigned short*, unsigned s...  20      - / - / - / - / -                         3.66 / 0.18 / 0.27 / 0.12 / 0.50          -           
+    void cudnn::ops::nhwcToNchwKernel<__half, __h...  240     - / - / - / - / -                         54.59 / 0.23 / 1.28 / 0.01 / 7.52         -           
+    cask_cudnn::computeWgradOffsetsKernel(cask_cu...  121     - / - / - / - / -                         0.50 / 0.00 / 0.00 / 0.00 / 0.07          -           
+    volta_s884cudnn_fp16_64x64_sliced1x4_ldg8_wgr...  1       - / - / - / - / -                         0.34 / 0.34 / 0.34 / 0.34 / 0.05          -           
+    void cudnn::ops::nhwcToNchwKernel<float, __ha...  105     - / - / - / - / -                         2.20 / 0.02 / 0.13 / 0.01 / 0.30          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  16      - / - / - / - / -                         1.99 / 0.12 / 0.17 / 0.09 / 0.27          -           
+    void xmma_cudnn::gemm::split_k_kernel<xmma_cu...  16      - / - / - / - / -                         0.14 / 0.01 / 0.01 / 0.01 / 0.02          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  4       - / - / - / - / -                         0.43 / 0.11 / 0.11 / 0.11 / 0.06          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  65      - / - / - / - / -                         5.93 / 0.09 / 0.25 / 0.04 / 0.82          -           
+    void cask_cudnn::computeOffsetsKernel<true, f...  266     - / - / - / - / -                         0.97 / 0.00 / 0.00 / 0.00 / 0.13          -           
+    cask_cudnn::computeBOffsetsKernel(cask_cudnn:...  276     - / - / - / - / -                         0.87 / 0.00 / 0.00 / 0.00 / 0.12          -           
+    volta_fp16_s884cudnn_fp16_128x128_ldg8_dgrad_...  131     - / - / - / - / -                         66.63 / 0.51 / 2.57 / 0.03 / 9.18         -           
+    _ZN13cutlass_cudnn6KernelINS_4conv6kernel23Im...  21      - / - / - / - / -                         2.85 / 0.14 / 0.18 / 0.11 / 0.39          -           
+    void cutlass_cudnn::Kernel<cutlass_cudnn::red...  40      - / - / - / - / -                         0.63 / 0.02 / 0.05 / 0.01 / 0.09          -           
+    volta_fp16_s884cudnn_fp16_256x64_ldg8_dgrad_f...  24      - / - / - / - / -                         2.63 / 0.11 / 0.16 / 0.06 / 0.36          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  127     - / - / - / - / -                         11.41 / 0.09 / 0.17 / 0.06 / 1.57         -           
+    void xmma_cudnn::gemm::split_k_kernel<xmma_cu...  29      - / - / - / - / -                         0.37 / 0.01 / 0.02 / 0.01 / 0.05          -           
+    volta_s884cudnn_fp16_128x128_ldg8_wgrad_idx_e...  68      - / - / - / - / -                         9.39 / 0.14 / 0.23 / 0.09 / 1.29          -           
+    cudnn::cnn::dgrad_1x1_stride_2x2(cudnn::cnn::...  9       - / - / - / - / -                         1.33 / 0.15 / 0.20 / 0.09 / 0.18          -           
+    void cutlass_cudnn::Kernel<cutlass_tensorop_f...  9       - / - / - / - / -                         1.29 / 0.14 / 0.17 / 0.11 / 0.18          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  88      - / - / - / - / -                         95.61 / 1.09 / 2.82 / 0.07 / 13.17        -           
+    volta_s884cudnn_fp16_256x128_ldg8_wgrad_idx_e...  52      - / - / - / - / -                         100.59 / 1.93 / 2.50 / 0.12 / 13.85       -           
+    void cudnn::ops::nchwToNhwcKernel<float, __ha...  16      - / - / - / - / -                         0.69 / 0.04 / 0.05 / 0.03 / 0.09          -           
+    void xmma_cudnn::ext::implicit_gemm::strided_...  23      - / - / - / - / -                         0.10 / 0.00 / 0.00 / 0.00 / 0.01          -           
+    void xmma_cudnn::ext::implicit_gemm::strided_...  23      - / - / - / - / -                         0.12 / 0.01 / 0.01 / 0.00 / 0.02          -           
+    void xmma_cudnn::ext::implicit_gemm::strided_...  23      - / - / - / - / -                         0.08 / 0.00 / 0.00 / 0.00 / 0.01          -           
+    void xmma_cudnn::ext::implicit_gemm::strided_...  23      - / - / - / - / -                         0.56 / 0.02 / 0.03 / 0.01 / 0.08          -           
+    void xmma_cudnn::ext::implicit_gemm::strided_...  23      - / - / - / - / -                         76.85 / 3.34 / 3.65 / 0.22 / 10.58        -           
+    void cutlass_cudnn::Kernel<cutlass_tensorop_f...  17      - / - / - / - / -                         36.18 / 2.13 / 2.34 / 1.44 / 4.98         -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  50      - / - / - / - / -                         60.39 / 1.21 / 1.22 / 1.20 / 8.32         -           
+    volta_fp16_s884cudnn_fp16_256x128_ldg8_dgrad_...  11      - / - / - / - / -                         9.13 / 0.83 / 1.93 / 0.07 / 1.26          -           
+    void tensorTransformGeneric<__half, __half, f...  9       - / - / - / - / -                         0.28 / 0.03 / 0.03 / 0.03 / 0.04          -           
+    _ZN13cutlass_cudnn6KernelINS_4conv6kernel23Im...  11      - / - / - / - / -                         0.53 / 0.05 / 0.06 / 0.04 / 0.07          -           
+    volta_fp16_scudnn_fp16_128x128_stridedB_inter...  6       - / - / - / - / -                         0.36 / 0.06 / 0.07 / 0.05 / 0.05          -           
+    _ZN13cutlass_cudnn6KernelINS_4conv6kernel23Im...  4       - / - / - / - / -                         0.17 / 0.04 / 0.05 / 0.04 / 0.02          -           
+    void xmma_cudnn::gemm::split_k_kernel<xmma_cu...  16      - / - / - / - / -                         0.23 / 0.01 / 0.04 / 0.01 / 0.03          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  14      - / - / - / - / -                         2.42 / 0.17 / 0.30 / 0.10 / 0.33          -           
+    void xmma_cudnn::gemm::split_k_kernel<xmma_cu...  7       - / - / - / - / -                         0.10 / 0.01 / 0.02 / 0.01 / 0.01          -           
+    volta_fp16_s884cudnn_fp16_128x128_ldg8_dgrad_...  89      - / - / - / - / -                         6.89 / 0.08 / 0.19 / 0.03 / 0.95          -           
+    void nchwAddPaddingKernel<__half, __half, flo...  10      - / - / - / - / -                         0.04 / 0.00 / 0.01 / 0.00 / 0.01          -           
+    volta_fp16_s884cudnn_fp16_256x64_ldg8_dgrad_D...  5       - / - / - / - / -                         0.32 / 0.06 / 0.17 / 0.03 / 0.04          -           
+    void cask_cudnn::computeOffsetsKernel<true, t...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 0.01          -           
+    volta_fp16_s884cudnn_fp16_128x128_ldg8_splitK...  10      - / - / - / - / -                         1.15 / 0.12 / 0.12 / 0.11 / 0.16          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  4       - / - / - / - / -                         0.68 / 0.17 / 0.17 / 0.17 / 0.09          -           
+    _ZN13cutlass_cudnn6KernelINS_4conv6kernel23Im...  3       - / - / - / - / -                         0.63 / 0.21 / 0.21 / 0.21 / 0.09          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  10      - / - / - / - / -                         0.82 / 0.08 / 0.09 / 0.08 / 0.11          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  5       - / - / - / - / -                         0.66 / 0.13 / 0.13 / 0.13 / 0.09          -           
+    void xmma_cudnn::gemm::kernel<xmma_cudnn::imp...  1       - / - / - / - / -                         1.58 / 1.58 / 1.58 / 1.58 / 0.22          -           
+    _ZN13cutlass_cudnn6KernelINS_4conv6kernel23Im...  1       - / - / - / - / -                         0.15 / 0.15 / 0.15 / 0.15 / 0.02          -           
+  void phi::funcs::VectorizedBroadcastKernel<phi:...  110     - / - / - / - / -                         22.82 / 0.21 / 0.76 / 0.04 / 3.05         -           
+batch_norm dygraph                                    1060    44.71 / 0.04 / 0.09 / 0.03 / 1.27         429.60 / 0.41 / 3.28 / 0.01 / 12.62       0           
+  batch_norm infer_meta                               530     1.04 / 0.00 / 0.01 / 0.00 / 2.33          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  batch_norm compute                                  530     9.85 / 0.02 / 0.04 / 0.02 / 22.02         214.80 / 0.41 / 3.28 / 0.01 / 50.00       -           
+    void cudnn::bn_fw_inf_1C11_kernel_NCHW<__half...  530     - / - / - / - / -                         214.80 / 0.41 / 3.28 / 0.01 / 100.00      -           
+  batch_norm node_creation                            420     2.76 / 0.01 / 0.02 / 0.00 / 6.16          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+RoiAlignGradNode                                      10      848.92 / 84.89 / 86.29 / 82.89 / 24.08    241.93 / 24.19 / 35.28 / 19.21 / 7.10     0           
+  GpuMemcpySync:CPU->GPU                              10      0.24 / 0.02 / 0.03 / 0.02 / 0.03          0.01 / 0.00 / 0.00 / 0.00 / 0.00          -           
+    MEMCPY_HtoD                                       10      - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 100.00        -           
+  roi_align_grad infer_meta                           10      0.01 / 0.00 / 0.00 / 0.00 / 0.00          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  roi_align_grad compute                              10      0.70 / 0.07 / 0.09 / 0.06 / 0.08          241.92 / 24.19 / 35.28 / 19.21 / 100.00   -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  10      - / - / - / - / -                         0.38 / 0.04 / 0.05 / 0.03 / 0.16          -           
+    void phi::GPURoiAlignBackward<float>(int, flo...  10      - / - / - / - / -                         241.52 / 24.15 / 35.23 / 19.18 / 99.83    -           
+roi_align dygraph                                     20      2.99 / 0.15 / 0.19 / 0.11 / 0.08          203.52 / 10.18 / 12.73 / 9.00 / 5.98      0           
+  GpuMemcpySync:CPU->GPU                              10      0.17 / 0.02 / 0.02 / 0.02 / 5.70          0.01 / 0.00 / 0.00 / 0.00 / 0.01          -           
+    MEMCPY_HtoD                                       10      - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 100.00        -           
+  roi_align infer_meta                                10      0.01 / 0.00 / 0.00 / 0.00 / 0.41          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  roi_align compute                                   10      0.47 / 0.05 / 0.05 / 0.04 / 15.83         101.44 / 10.14 / 12.66 / 9.00 / 49.84     -           
+    void phi::GPURoiAlignForward<float>(int, floa...  10      - / - / - / - / -                         101.41 / 10.14 / 12.65 / 8.99 / 99.97     -           
+  roi_align node_creation                             10      0.03 / 0.00 / 0.00 / 0.00 / 1.06          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+generate_proposals dygraph                            40      290.52 / 7.26 / 10.15 / 5.68 / 8.24       192.68 / 4.82 / 5.21 / 3.90 / 5.66        0           
+  generate_proposals infer_meta                       20      0.01 / 0.00 / 0.00 / 0.00 / 0.00          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  generate_proposals compute                          20      145.03 / 7.25 / 10.13 / 5.67 / 49.92      96.34 / 4.82 / 5.21 / 3.90 / 50.00        -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  40      - / - / - / - / -                         0.19 / 0.00 / 0.01 / 0.00 / 0.19          -           
+    void phi::funcs::ForRangeElemwiseOp<phi::func...  20      - / - / - / - / -                         0.06 / 0.00 / 0.00 / 0.00 / 0.06          -           
+    void cub::DeviceRadixSortUpsweepKernel<cub::D...  60      - / - / - / - / -                         0.51 / 0.01 / 0.01 / 0.01 / 0.53          -           
+    void cub::RadixSortScanBinsKernel<cub::Device...  100     - / - / - / - / -                         2.03 / 0.02 / 0.02 / 0.02 / 2.11          -           
+    void cub::DeviceRadixSortDownsweepKernel<cub:...  60      - / - / - / - / -                         1.25 / 0.02 / 0.04 / 0.02 / 1.29          -           
+    void cub::DeviceRadixSortUpsweepKernel<cub::D...  40      - / - / - / - / -                         0.39 / 0.01 / 0.01 / 0.01 / 0.40          -           
+    void cub::DeviceRadixSortDownsweepKernel<cub:...  40      - / - / - / - / -                         0.87 / 0.02 / 0.03 / 0.02 / 0.90          -           
+    void phi::funcs::ForRangeElemwiseOp<phi::BoxD...  20      - / - / - / - / -                         0.22 / 0.01 / 0.01 / 0.01 / 0.22          -           
+    void phi::FilterBBoxes<float, 512>(float cons...  20      - / - / - / - / -                         3.68 / 0.18 / 0.19 / 0.18 / 3.82          -           
+    void phi::funcs::GatherCUDAKernel<float, int>...  80      - / - / - / - / -                         0.30 / 0.00 / 0.00 / 0.00 / 0.31          -           
+    phi::NMSKernel(int, float, float const*, unsi...  20      - / - / - / - / -                         19.14 / 0.96 / 1.01 / 0.77 / 19.87        -           
+BatchNormGradNode                                     420     12.02 / 0.03 / 0.04 / 0.02 / 0.34         102.04 / 0.24 / 1.26 / 0.02 / 3.00        0           
+  batch_norm_grad infer_meta                          420     0.21 / 0.00 / 0.00 / 0.00 / 1.72          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  batch_norm_grad compute                             420     4.71 / 0.01 / 0.02 / 0.01 / 39.18         102.04 / 0.24 / 1.26 / 0.02 / 100.00      -           
+    void phi::KeBNBackwardData<phi::dtype::float1...  420     - / - / - / - / -                         102.04 / 0.24 / 1.26 / 0.02 / 100.00      -           
+relu dygraph                                          1020    20.78 / 0.02 / 0.04 / 0.01 / 0.59         92.86 / 0.09 / 0.52 / 0.01 / 2.73         0           
+  relu infer_meta                                     510     0.35 / 0.00 / 0.01 / 0.00 / 1.67          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  relu compute                                        510     6.11 / 0.01 / 0.03 / 0.01 / 29.39         46.43 / 0.09 / 0.52 / 0.01 / 50.00        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         1.50 / 0.08 / 0.12 / 0.03 / 3.23          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  490     - / - / - / - / -                         44.93 / 0.09 / 0.52 / 0.01 / 96.77        -           
+  relu node_creation                                  410     0.64 / 0.00 / 0.01 / 0.00 / 3.08          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+add dygraph                                           820     20.03 / 0.02 / 0.07 / 0.01 / 0.57         81.88 / 0.10 / 0.76 / 0.00 / 2.40         0           
+  add infer_meta                                      410     0.47 / 0.00 / 0.01 / 0.00 / 2.33          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  add compute                                         410     5.45 / 0.01 / 0.04 / 0.01 / 27.19         40.46 / 0.10 / 0.76 / 0.00 / 49.41        -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  76      - / - / - / - / -                         2.10 / 0.03 / 0.12 / 0.00 / 5.20          -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  120     - / - / - / - / -                         0.37 / 0.00 / 0.00 / 0.00 / 0.92          -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 0.11          -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  160     - / - / - / - / -                         37.65 / 0.24 / 0.76 / 0.04 / 93.05        -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  44      - / - / - / - / -                         0.30 / 0.01 / 0.01 / 0.00 / 0.73          -           
+  add node_creation                                   200     0.74 / 0.00 / 0.01 / 0.00 / 3.71          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+CastGradNode                                          610     11.04 / 0.02 / 0.05 / 0.01 / 0.31         71.81 / 0.12 / 4.57 / 0.00 / 2.11         0           
+  cast infer_meta                                     610     0.28 / 0.00 / 0.00 / 0.00 / 2.54          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  cast compute                                        610     6.08 / 0.01 / 0.03 / 0.01 / 55.04         40.39 / 0.07 / 1.60 / 0.00 / 56.24        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  530     - / - / - / - / -                         37.75 / 0.07 / 1.60 / 0.00 / 93.47        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  80      - / - / - / - / -                         2.64 / 0.03 / 0.18 / 0.00 / 6.53          -           
+  void phi::funcs::VectorizedBroadcastKernel<phi:...  10      - / - / - / - / -                         0.60 / 0.06 / 0.08 / 0.04 / 0.84          -           
+  void phi::funcs::VectorizedBroadcastKernel<phi:...  20      - / - / - / - / -                         30.82 / 1.54 / 2.97 / 0.07 / 42.92        -           
+conv2d_transpose dygraph                              20      8.01 / 0.40 / 0.44 / 0.35 / 0.23          70.59 / 3.53 / 5.82 / 1.59 / 2.07         0           
+  conv2d_transpose infer_meta                         10      0.07 / 0.01 / 0.01 / 0.01 / 0.87          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  conv2d_transpose compute                            10      3.65 / 0.36 / 0.39 / 0.34 / 45.55         34.73 / 3.47 / 5.64 / 1.59 / 49.19        -           
+    void cudnn::ops::scalePackedTensor_kernel<flo...  10      - / - / - / - / -                         0.47 / 0.05 / 0.07 / 0.02 / 1.35          -           
+    void cudnn::detail::dgrad_engine<float, 512, ...  10      - / - / - / - / -                         34.26 / 3.43 / 5.56 / 1.57 / 98.65        -           
+  conv2d_transpose node_creation                      10      0.05 / 0.00 / 0.01 / 0.00 / 0.57          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+cast dygraph                                          910     36.95 / 0.04 / 2.75 / 0.00 / 1.05         58.43 / 0.06 / 2.57 / 0.00 / 1.72         0           
+  cast infer_meta                                     910     0.50 / 0.00 / 0.00 / 0.00 / 1.34          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  cast compute                                        910     11.68 / 0.01 / 0.07 / 0.00 / 31.61        40.41 / 0.04 / 1.51 / 0.00 / 69.16        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.07 / 0.00 / 0.00 / 0.00 / 0.17          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  80      - / - / - / - / -                         2.71 / 0.03 / 0.18 / 0.00 / 6.70          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  650     - / - / - / - / -                         37.20 / 0.06 / 1.51 / 0.00 / 92.04        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.05 / 0.00 / 0.00 / 0.00 / 0.13          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 0.07          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 0.07          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  80      - / - / - / - / -                         0.24 / 0.00 / 0.00 / 0.00 / 0.59          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.09 / 0.00 / 0.01 / 0.00 / 0.23          -           
+  cast node_creation                                  610     1.59 / 0.00 / 0.01 / 0.00 / 4.31          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  GpuMemcpySync:CUDAPinned->GPU                       10      18.36 / 1.84 / 2.57 / 1.21 / 49.68        18.02 / 1.80 / 2.50 / 1.17 / 30.84        -           
+    MEMCPY_HtoD                                       10      - / - / - / - / -                         18.02 / 1.80 / 2.50 / 1.17 / 100.00       -           
+ReluGradNode                                          410     9.29 / 0.02 / 0.03 / 0.02 / 0.26          56.31 / 0.14 / 0.77 / 0.01 / 1.65         0           
+  relu_grad infer_meta                                410     0.41 / 0.00 / 0.00 / 0.00 / 4.39          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  relu_grad compute                                   410     4.14 / 0.01 / 0.02 / 0.01 / 44.60         56.31 / 0.14 / 0.77 / 0.01 / 100.00       -           
+    void phi::funcs::VectorizedElementwiseKernel<...  390     - / - / - / - / -                         54.11 / 0.14 / 0.77 / 0.01 / 96.09        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         2.20 / 0.11 / 0.17 / 0.05 / 3.91          -           
+Conv2dTransposeGradNode                               10      8.38 / 0.84 / 1.49 / 0.71 / 0.24          48.00 / 4.80 / 7.46 / 2.26 / 1.41         0           
+  conv2d_transpose_grad infer_meta                    10      0.01 / 0.00 / 0.00 / 0.00 / 0.11          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  conv2d_transpose_grad compute                       10      8.21 / 0.82 / 1.46 / 0.69 / 97.88         48.00 / 4.80 / 7.46 / 2.26 / 100.00       -           
+    void cask_cudnn::computeOffsetsKernel<false, ...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 0.08          -           
+    volta_scudnn_128x128_relu_small_nn_v1             6       - / - / - / - / -                         14.98 / 2.50 / 2.82 / 2.37 / 31.20        -           
+    cask_cudnn::computeWgradSplitKOffsetsKernel(c...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 0.08          -           
+    cask_cudnn::computeWgradBOffsetsKernel(cask_c...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 0.08          -           
+    MEMSET                                            20      - / - / - / - / -                         0.14 / 0.01 / 0.01 / 0.00 / 0.30          -           
+    volta_scudnn_128x128_stridedB_splitK_small_nn_v1  7       - / - / - / - / -                         18.52 / 2.65 / 3.77 / 2.21 / 38.58        -           
+    volta_scudnn_128x64_relu_interior_nn_v1           2       - / - / - / - / -                         4.86 / 2.43 / 3.67 / 1.19 / 10.13         -           
+    volta_scudnn_128x128_stridedB_splitK_medium_n...  3       - / - / - / - / -                         4.96 / 1.65 / 2.04 / 1.04 / 10.33         -           
+    void cudnn::ops::nchwToNhwcKernel<float, floa...  4       - / - / - / - / -                         0.23 / 0.06 / 0.06 / 0.06 / 0.49          -           
+    volta_scudnn_128x32_sliced1x4_ldg4_relu_exp_m...  2       - / - / - / - / -                         3.91 / 1.96 / 2.02 / 1.89 / 8.15          -           
+    void cudnn::ops::nhwcToNchwKernel<float, floa...  2       - / - / - / - / -                         0.29 / 0.14 / 0.15 / 0.13 / 0.59          -           
+pool2d dygraph                                        40      1.75 / 0.04 / 0.05 / 0.04 / 0.05          30.40 / 0.76 / 1.23 / 0.19 / 0.89         0           
+  pool2d infer_meta                                   20      0.10 / 0.01 / 0.01 / 0.00 / 5.87          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  pool2d compute                                      20      0.59 / 0.03 / 0.04 / 0.03 / 33.51         15.20 / 0.76 / 1.23 / 0.19 / 50.00        -           
+    void phi::funcs::ReduceAnyKernel<phi::dtype::...  10      - / - / - / - / -                         12.29 / 1.23 / 1.23 / 1.23 / 80.87        -           
+    void pooling_fw_4d_kernel<__half, float, cudn...  10      - / - / - / - / -                         2.91 / 0.29 / 0.40 / 0.19 / 19.13         -           
+  pool2d node_creation                                10      0.03 / 0.00 / 0.00 / 0.00 / 1.75          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+AddGradNode                                           200     6.49 / 0.03 / 0.08 / 0.02 / 0.18          23.78 / 0.12 / 0.53 / 0.01 / 0.70         0           
+  add_grad infer_meta                                 200     0.12 / 0.00 / 0.00 / 0.00 / 1.82          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  add_grad compute                                    200     4.59 / 0.02 / 0.06 / 0.01 / 70.80         23.78 / 0.12 / 0.53 / 0.01 / 100.00       -           
+    void phi::funcs::ReduceAnyKernel<float, float...  50      - / - / - / - / -                         1.46 / 0.03 / 0.07 / 0.01 / 6.15          -           
+    void phi::funcs::ReduceHigherDimKernel<float,...  90      - / - / - / - / -                         0.88 / 0.01 / 0.04 / 0.00 / 3.72          -           
+Pool2dGradNode                                        10      0.49 / 0.05 / 0.06 / 0.05 / 0.01          22.17 / 2.22 / 2.22 / 2.21 / 0.65         0           
+  pool2d_grad infer_meta                              10      0.01 / 0.00 / 0.00 / 0.00 / 2.43          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  pool2d_grad compute                                 10      0.32 / 0.03 / 0.04 / 0.03 / 64.49         22.17 / 2.22 / 2.22 / 2.21 / 100.00       -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  10      - / - / - / - / -                         2.61 / 0.26 / 0.27 / 0.26 / 11.77         -           
+    void phi::funcs::KernelPool2DGrad<phi::dtype:...  10      - / - / - / - / -                         19.56 / 1.96 / 1.96 / 1.95 / 88.23        -           
+GatherGradNode                                        40      1.50 / 0.04 / 0.06 / 0.03 / 0.04          14.89 / 0.37 / 1.73 / 0.01 / 0.44         0           
+  gather_grad infer_meta                              40      0.02 / 0.00 / 0.00 / 0.00 / 1.29          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  gather_grad compute                                 40      0.99 / 0.02 / 0.04 / 0.02 / 66.17         7.27 / 0.18 / 0.97 / 0.01 / 48.81         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  10      - / - / - / - / -                         2.63 / 0.26 / 0.27 / 0.26 / 36.21         -           
+    void phi::funcs::ScatterInitCUDAKernel<phi::d...  10      - / - / - / - / -                         1.16 / 0.12 / 0.19 / 0.05 / 15.94         -           
+    void phi::funcs::ScatterCUDAKernel<phi::dtype...  10      - / - / - / - / -                         3.13 / 0.31 / 0.52 / 0.13 / 43.13         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  30      - / - / - / - / -                         0.12 / 0.00 / 0.00 / 0.00 / 1.60          -           
+    void phi::funcs::ScatterInitCUDAKernel<float,...  30      - / - / - / - / -                         0.11 / 0.00 / 0.00 / 0.00 / 1.50          -           
+    void phi::funcs::ScatterCUDAKernel<float, lon...  30      - / - / - / - / -                         0.12 / 0.00 / 0.00 / 0.00 / 1.62          -           
+  void phi::funcs::VectorizedBroadcastKernel<phi:...  10      - / - / - / - / -                         7.62 / 0.76 / 0.77 / 0.76 / 51.19         -           
+momentum_ dygraph                                     560     6.04 / 0.01 / 0.04 / 0.01 / 0.17          10.93 / 0.02 / 0.24 / 0.00 / 0.32         0           
+  momentum_ infer_meta                                560     0.20 / 0.00 / 0.00 / 0.00 / 3.33          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  momentum_ compute                                   560     3.83 / 0.01 / 0.02 / 0.01 / 63.43         10.93 / 0.02 / 0.24 / 0.00 / 100.00       -           
+    void phi::funcs::ForRangeElemwiseOpGridIsOne<...  70      - / - / - / - / -                         0.22 / 0.00 / 0.00 / 0.00 / 2.02          -           
+    void phi::funcs::ForRangeElemwiseOp<phi::Dens...  490     - / - / - / - / -                         10.71 / 0.02 / 0.24 / 0.00 / 97.98        -           
+nonzero dygraph                                       380     1296.97 / 3.41 / 63.92 / 0.04 / 36.79     8.58 / 0.02 / 0.18 / 0.01 / 0.25          0           
+  nonzero infer_meta                                  190     0.09 / 0.00 / 0.00 / 0.00 / 0.01          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  nonzero compute                                     190     646.74 / 3.40 / 63.91 / 0.04 / 49.87      4.27 / 0.02 / 0.18 / 0.01 / 49.75         -           
+    void phi::funcs::GetBlockCountKernel<float, l...  10      - / - / - / - / -                         0.20 / 0.02 / 0.03 / 0.01 / 4.67          -           
+    void phi::funcs::CumsumOneBlock<long, long, p...  190     - / - / - / - / -                         1.08 / 0.01 / 0.02 / 0.00 / 25.29         -           
+    void phi::funcs::SelectKernel<float, float, l...  10      - / - / - / - / -                         0.87 / 0.09 / 0.13 / 0.05 / 20.45         -           
+    void phi::funcs::GetBlockCountKernel<bool, lo...  140     - / - / - / - / -                         0.47 / 0.00 / 0.00 / 0.00 / 10.92         -           
+    void phi::funcs::SelectKernel<bool, bool, lon...  140     - / - / - / - / -                         1.24 / 0.01 / 0.01 / 0.01 / 29.12         -           
+    void phi::funcs::GetBlockCountKernel<int, lon...  40      - / - / - / - / -                         0.16 / 0.00 / 0.00 / 0.00 / 3.71          -           
+  GpuMemcpySync:CUDAPinned->GPU                       20      0.44 / 0.02 / 0.02 / 0.02 / 0.03          0.02 / 0.00 / 0.00 / 0.00 / 0.25          -           
+    MEMCPY_HtoD                                       20      - / - / - / - / -                         0.02 / 0.00 / 0.00 / 0.00 / 100.00        -           
+randperm dygraph                                      80      6.56 / 0.08 / 0.25 / 0.05 / 0.19          6.68 / 0.08 / 0.27 / 0.02 / 0.20          0           
+  randperm infer_meta                                 80      0.04 / 0.00 / 0.00 / 0.00 / 0.58          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  randperm compute                                    80      6.27 / 0.08 / 0.25 / 0.04 / 95.50         6.68 / 0.08 / 0.27 / 0.02 / 100.00        -           
+    void phi::funcs::DistributionKernel<int, phi:...  80      - / - / - / - / -                         0.31 / 0.00 / 0.01 / 0.00 / 4.63          -           
+    void phi::funcs::ForRangeElemwiseOpGridIsOne<...  44      - / - / - / - / -                         0.11 / 0.00 / 0.00 / 0.00 / 1.67          -           
+    void cub::DeviceRadixSortSingleTileKernel<cub...  60      - / - / - / - / -                         0.81 / 0.01 / 0.02 / 0.01 / 12.20         -           
+    void phi::SwapRepeatKernel<int, int>(int*, in...  80      - / - / - / - / -                         0.22 / 0.00 / 0.01 / 0.00 / 3.35          -           
+    void phi::funcs::ForRangeElemwiseOp<phi::Rand...  36      - / - / - / - / -                         0.10 / 0.00 / 0.00 / 0.00 / 1.46          -           
+    void cub::DeviceRadixSortUpsweepKernel<cub::D...  60      - / - / - / - / -                         0.50 / 0.01 / 0.01 / 0.01 / 7.54          -           
+    void cub::RadixSortScanBinsKernel<cub::Device...  100     - / - / - / - / -                         2.04 / 0.02 / 0.02 / 0.02 / 30.50         -           
+    void cub::DeviceRadixSortDownsweepKernel<cub:...  60      - / - / - / - / -                         1.28 / 0.02 / 0.03 / 0.02 / 19.14         -           
+    void cub::DeviceRadixSortUpsweepKernel<cub::D...  40      - / - / - / - / -                         0.38 / 0.01 / 0.01 / 0.01 / 5.75          -           
+    void cub::DeviceRadixSortDownsweepKernel<cub:...  40      - / - / - / - / -                         0.92 / 0.02 / 0.03 / 0.02 / 13.75         -           
+slice dygraph                                         2120    37.66 / 0.02 / 0.22 / 0.01 / 1.07         6.41 / 0.00 / 0.01 / 0.00 / 0.19          0           
+  slice infer_meta                                    1060    1.15 / 0.00 / 0.01 / 0.00 / 3.06          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  slice compute                                       1060    10.22 / 0.01 / 0.03 / 0.00 / 27.12        3.17 / 0.00 / 0.01 / 0.00 / 49.49         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  780     - / - / - / - / -                         2.52 / 0.00 / 0.01 / 0.00 / 79.34         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  80      - / - / - / - / -                         0.24 / 0.00 / 0.00 / 0.00 / 7.56          -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  80      - / - / - / - / -                         0.24 / 0.00 / 0.00 / 0.00 / 7.64          -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  40      - / - / - / - / -                         0.17 / 0.00 / 0.01 / 0.00 / 5.46          -           
+  GpuMemcpySync:CUDAPinned->GPU                       30      1.15 / 0.04 / 0.18 / 0.02 / 3.06          0.03 / 0.00 / 0.00 / 0.00 / 0.51          -           
+    MEMCPY_HtoD                                       30      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 100.00        -           
+  slice node_creation                                 40      0.12 / 0.00 / 0.01 / 0.00 / 0.32          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+gather dygraph                                        680     12.52 / 0.02 / 0.06 / 0.01 / 0.36         5.96 / 0.01 / 0.28 / 0.00 / 0.18          0           
+  gather infer_meta                                   340     0.20 / 0.00 / 0.00 / 0.00 / 1.62          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  gather compute                                      340     3.69 / 0.01 / 0.03 / 0.01 / 29.49         2.98 / 0.01 / 0.28 / 0.00 / 50.00         -           
+    void phi::funcs::GatherCUDAKernel<phi::dtype:...  10      - / - / - / - / -                         1.75 / 0.17 / 0.28 / 0.08 / 58.60         -           
+    void phi::funcs::GatherCUDAKernel<int, long>(...  50      - / - / - / - / -                         0.18 / 0.00 / 0.00 / 0.00 / 6.11          -           
+    void phi::funcs::GatherCUDAKernel<float, long...  110     - / - / - / - / -                         0.45 / 0.00 / 0.01 / 0.00 / 14.93         -           
+    void phi::funcs::GatherCUDAKernel<long, long>...  30      - / - / - / - / -                         0.11 / 0.00 / 0.00 / 0.00 / 3.55          -           
+    void phi::funcs::GatherCUDAKernel<long, int>(...  20      - / - / - / - / -                         0.08 / 0.00 / 0.00 / 0.00 / 2.61          -           
+    void phi::funcs::GatherCUDAKernel<float, int>...  20      - / - / - / - / -                         0.07 / 0.00 / 0.00 / 0.00 / 2.47          -           
+    void phi::funcs::GatherCUDAKernel<int, int>(i...  100     - / - / - / - / -                         0.35 / 0.00 / 0.00 / 0.00 / 11.73         -           
+  gather node_creation                                40      0.27 / 0.01 / 0.03 / 0.00 / 2.17          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+topk dygraph                                          80      3.71 / 0.05 / 0.07 / 0.04 / 0.11          5.21 / 0.07 / 0.17 / 0.01 / 0.15          0           
+  topk infer_meta                                     40      0.04 / 0.00 / 0.00 / 0.00 / 0.99          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  topk compute                                        40      1.55 / 0.04 / 0.06 / 0.03 / 41.62         2.60 / 0.07 / 0.17 / 0.01 / 50.00         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  80      - / - / - / - / -                         0.31 / 0.00 / 0.02 / 0.00 / 12.02         -           
+    void phi::funcs::KeMatrixTopK<float, 1, 64>(f...  40      - / - / - / - / -                         2.14 / 0.05 / 0.14 / 0.00 / 82.30         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  40      - / - / - / - / -                         0.15 / 0.00 / 0.00 / 0.00 / 5.67          -           
+check_finite_and_unscale dygraph                      10      3.33 / 0.33 / 0.38 / 0.31 / 0.09          4.49 / 0.45 / 0.46 / 0.44 / 0.13          0           
+check_finite_and_unscale                              10      1.99 / 0.20 / 0.24 / 0.19 / 0.06          4.49 / 0.45 / 0.46 / 0.44 / 0.13          0           
+  infer_shape                                         10      0.27 / 0.03 / 0.03 / 0.03 / 13.77         0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  compute                                             10      0.76 / 0.08 / 0.10 / 0.07 / 38.16         4.49 / 0.45 / 0.46 / 0.44 / 100.00        -           
+    void phi::InverseAndMemset<float>(float const...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 0.67          -           
+    void phi::CheckFiniteAndUnscale<float, float>...  10      - / - / - / - / -                         4.44 / 0.44 / 0.45 / 0.44 / 98.83         -           
+  grad_node_creation                                  10      0.00 / 0.00 / 0.00 / 0.00 / 0.16          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+subtract dygraph                                      880     13.35 / 0.02 / 0.05 / 0.01 / 0.38         3.21 / 0.00 / 0.05 / 0.00 / 0.09          0           
+  subtract infer_meta                                 440     0.25 / 0.00 / 0.00 / 0.00 / 1.91          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  subtract compute                                    440     4.07 / 0.01 / 0.03 / 0.01 / 30.51         1.61 / 0.00 / 0.05 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  440     - / - / - / - / -                         1.61 / 0.00 / 0.05 / 0.00 / 100.00        -           
+  subtract node_creation                              20      0.07 / 0.00 / 0.01 / 0.00 / 0.53          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+matmul dygraph                                        40      4.30 / 0.11 / 0.15 / 0.07 / 0.12          2.25 / 0.06 / 0.06 / 0.05 / 0.07          0           
+  matmul infer_meta                                   20      0.04 / 0.00 / 0.01 / 0.00 / 0.83          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  matmul compute                                      20      1.70 / 0.09 / 0.11 / 0.06 / 39.57         1.06 / 0.05 / 0.06 / 0.05 / 47.13         -           
+    MEMSET                                            10      - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 1.04          -           
+    void cutlass::Kernel<cutlass_70_tensorop_f16_...  10      - / - / - / - / -                         0.52 / 0.05 / 0.05 / 0.05 / 48.99         -           
+    void cutlass::Kernel<cutlass_70_tensorop_f16_...  10      - / - / - / - / -                         0.47 / 0.05 / 0.05 / 0.05 / 44.45         -           
+    void splitKreduce_kernel<__half, __half, floa...  10      - / - / - / - / -                         0.06 / 0.01 / 0.01 / 0.01 / 5.52          -           
+  matmul node_creation                                20      0.06 / 0.00 / 0.00 / 0.00 / 1.29          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+scale dygraph                                         794     11.39 / 0.01 / 0.05 / 0.01 / 0.32         2.20 / 0.00 / 0.00 / 0.00 / 0.06          0           
+  scale infer_meta                                    422     0.18 / 0.00 / 0.00 / 0.00 / 1.57          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  scale compute                                       422     3.65 / 0.01 / 0.03 / 0.00 / 32.09         1.17 / 0.00 / 0.00 / 0.00 / 53.10         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  320     - / - / - / - / -                         0.91 / 0.00 / 0.00 / 0.00 / 77.46         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  42      - / - / - / - / -                         0.15 / 0.00 / 0.00 / 0.00 / 12.91         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  40      - / - / - / - / -                         0.11 / 0.00 / 0.00 / 0.00 / 9.63          -           
+  scale node_creation                                 80      0.10 / 0.00 / 0.00 / 0.00 / 0.86          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+concat dygraph                                        420     13.29 / 0.03 / 0.09 / 0.01 / 0.38         2.01 / 0.00 / 0.02 / 0.00 / 0.06          0           
+  concat infer_meta                                   210     0.24 / 0.00 / 0.00 / 0.00 / 1.84          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  concat compute                                      210     4.66 / 0.02 / 0.07 / 0.00 / 35.07         1.01 / 0.00 / 0.02 / 0.00 / 50.00         -           
+    void phi::funcs::ConcatTensorWithSameShape<in...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 4.13          -           
+    void phi::funcs::ConcatTensorWithSameShape<in...  18      - / - / - / - / -                         0.08 / 0.00 / 0.01 / 0.00 / 8.42          -           
+    void phi::funcs::ConcatTensorWithSameShape<in...  1       - / - / - / - / -                         0.00 / 0.00 / 0.00 / 0.00 / 0.46          -           
+    void phi::funcs::ConcatTensorWithSameShape<in...  1       - / - / - / - / -                         0.00 / 0.00 / 0.00 / 0.00 / 0.45          -           
+  concat node_creation                                20      0.06 / 0.00 / 0.00 / 0.00 / 0.47          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+full dygraph                                          822     8.66 / 0.01 / 0.06 / 0.00 / 0.25          1.92 / 0.00 / 0.01 / 0.00 / 0.06          0           
+  full infer_meta                                     822     0.34 / 0.00 / 0.00 / 0.00 / 3.97          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  full compute                                        822     6.71 / 0.01 / 0.05 / 0.00 / 77.48         1.92 / 0.00 / 0.01 / 0.00 / 100.00        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  220     - / - / - / - / -                         0.63 / 0.00 / 0.01 / 0.00 / 33.02         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  212     - / - / - / - / -                         0.54 / 0.00 / 0.00 / 0.00 / 28.14         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  290     - / - / - / - / -                         0.75 / 0.00 / 0.00 / 0.00 / 38.84         -           
+MatmulGradNode                                        20      2.81 / 0.14 / 0.20 / 0.12 / 0.08          1.83 / 0.09 / 0.09 / 0.09 / 0.05          0           
+  matmul_grad infer_meta                              20      0.01 / 0.00 / 0.00 / 0.00 / 0.40          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  matmul_grad compute                                 20      2.22 / 0.11 / 0.18 / 0.07 / 78.97         1.64 / 0.08 / 0.09 / 0.07 / 89.61         -           
+    volta_fp16_s884gemm_fp16_128x128_ldg8_f2f_sta...  10      - / - / - / - / -                         0.36 / 0.04 / 0.04 / 0.04 / 22.11         -           
+    volta_fp16_s884gemm_fp16_64x64_ldg8_f2f_nt        10      - / - / - / - / -                         0.39 / 0.04 / 0.04 / 0.04 / 23.59         -           
+    void cutlass::Kernel<cutlass_70_tensorop_f16_...  10      - / - / - / - / -                         0.33 / 0.03 / 0.03 / 0.03 / 19.93         -           
+    MEMSET                                            10      - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 0.65          -           
+    void cutlass::Kernel<cutlass_70_tensorop_f16_...  10      - / - / - / - / -                         0.55 / 0.06 / 0.06 / 0.05 / 33.73         -           
+  void phi::funcs::VectorizedBroadcastKernel<phi:...  10      - / - / - / - / -                         0.19 / 0.02 / 0.02 / 0.02 / 10.39         -           
+equal dygraph                                         428     6.67 / 0.02 / 0.04 / 0.01 / 0.19          1.51 / 0.00 / 0.02 / 0.00 / 0.04          0           
+  equal infer_meta                                    214     0.16 / 0.00 / 0.00 / 0.00 / 2.36          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  equal compute                                       214     2.01 / 0.01 / 0.03 / 0.01 / 30.14         0.76 / 0.00 / 0.02 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  104     - / - / - / - / -                         0.30 / 0.00 / 0.00 / 0.00 / 39.22         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  90      - / - / - / - / -                         0.29 / 0.00 / 0.00 / 0.00 / 38.05         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  20      - / - / - / - / -                         0.17 / 0.01 / 0.02 / 0.01 / 22.74         -           
+divide dygraph                                        320     4.57 / 0.01 / 0.04 / 0.01 / 0.13          1.48 / 0.00 / 0.03 / 0.00 / 0.04          0           
+  divide infer_meta                                   160     0.07 / 0.00 / 0.00 / 0.00 / 1.42          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  divide compute                                      160     1.42 / 0.01 / 0.02 / 0.01 / 31.08         0.74 / 0.00 / 0.03 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  160     - / - / - / - / -                         0.74 / 0.00 / 0.03 / 0.00 / 100.00        -           
+greater_than dygraph                                  356     6.14 / 0.02 / 0.43 / 0.01 / 0.17          1.41 / 0.00 / 0.02 / 0.00 / 0.04          0           
+  greater_than infer_meta                             178     0.14 / 0.00 / 0.00 / 0.00 / 2.21          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  greater_than compute                                178     1.75 / 0.01 / 0.03 / 0.01 / 28.41         0.71 / 0.00 / 0.02 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  78      - / - / - / - / -                         0.24 / 0.00 / 0.00 / 0.00 / 34.49         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  100     - / - / - / - / -                         0.46 / 0.00 / 0.02 / 0.00 / 65.51         -           
+full_like dygraph                                     480     6.86 / 0.01 / 0.03 / 0.01 / 0.19          1.31 / 0.00 / 0.01 / 0.00 / 0.04          0           
+  full_like infer_meta                                240     0.08 / 0.00 / 0.00 / 0.00 / 1.21          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  full_like compute                                   240     2.11 / 0.01 / 0.02 / 0.01 / 30.71         0.65 / 0.00 / 0.01 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  180     - / - / - / - / -                         0.45 / 0.00 / 0.00 / 0.00 / 68.71         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  60      - / - / - / - / -                         0.20 / 0.00 / 0.01 / 0.00 / 31.29         -           
+where dygraph                                         360     5.94 / 0.02 / 0.04 / 0.01 / 0.17          1.30 / 0.00 / 0.03 / 0.00 / 0.04          0           
+  where infer_meta                                    180     0.12 / 0.00 / 0.00 / 0.00 / 1.99          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  where compute                                       180     1.73 / 0.01 / 0.02 / 0.01 / 29.15         0.65 / 0.00 / 0.03 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  140     - / - / - / - / -                         0.42 / 0.00 / 0.00 / 0.00 / 65.46         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  40      - / - / - / - / -                         0.22 / 0.01 / 0.03 / 0.00 / 34.54         -           
+sum dygraph                                           120     4.69 / 0.04 / 0.08 / 0.03 / 0.13          1.03 / 0.01 / 0.06 / 0.00 / 0.03          0           
+  sum infer_meta                                      60      0.10 / 0.00 / 0.00 / 0.00 / 2.07          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  sum compute                                         60      1.85 / 0.03 / 0.06 / 0.02 / 39.37         0.51 / 0.01 / 0.06 / 0.00 / 50.00         -           
+    void cub::DeviceReduceSingleTileKernel<cub::D...  30      - / - / - / - / -                         0.12 / 0.00 / 0.00 / 0.00 / 23.65         -           
+    void cub::DeviceReduceSingleTileKernel<cub::D...  10      - / - / - / - / -                         0.05 / 0.01 / 0.01 / 0.01 / 9.96          -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.16 / 0.01 / 0.03 / 0.00 / 30.83         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  3       - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 1.98          -           
+    void phi::funcs::ReduceHigherDimKernel<long, ...  17      - / - / - / - / -                         0.17 / 0.01 / 0.03 / 0.00 / 33.58         -           
+  sum node_creation                                   30      0.06 / 0.00 / 0.00 / 0.00 / 1.38          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+logical_and dygraph                                   260     4.27 / 0.02 / 0.05 / 0.01 / 0.12          0.86 / 0.00 / 0.01 / 0.00 / 0.03          0           
+  logical_and infer_meta                              130     0.09 / 0.00 / 0.00 / 0.00 / 2.09          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  logical_and compute                                 130     1.31 / 0.01 / 0.02 / 0.01 / 30.64         0.43 / 0.00 / 0.01 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  130     - / - / - / - / -                         0.43 / 0.00 / 0.01 / 0.00 / 100.00        -           
+prod dygraph                                          80      2.30 / 0.03 / 0.05 / 0.02 / 0.07          0.82 / 0.01 / 0.05 / 0.00 / 0.02          0           
+  prod infer_meta                                     40      0.09 / 0.00 / 0.00 / 0.00 / 4.09          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  prod compute                                        40      0.85 / 0.02 / 0.04 / 0.02 / 36.74         0.41 / 0.01 / 0.05 / 0.00 / 50.00         -           
+    void phi::funcs::ReduceAnyKernel<float, float...  40      - / - / - / - / -                         0.41 / 0.01 / 0.05 / 0.00 / 100.00        -           
+not_equal dygraph                                     260     3.96 / 0.02 / 0.05 / 0.01 / 0.11          0.80 / 0.00 / 0.00 / 0.00 / 0.02          0           
+  not_equal infer_meta                                130     0.08 / 0.00 / 0.00 / 0.00 / 2.00          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  not_equal compute                                   130     1.20 / 0.01 / 0.03 / 0.01 / 30.28         0.40 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  120     - / - / - / - / -                         0.37 / 0.00 / 0.00 / 0.00 / 92.09         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 7.91          -           
+multiply dygraph                                      210     3.69 / 0.02 / 0.05 / 0.01 / 0.10          0.72 / 0.00 / 0.01 / 0.00 / 0.02          0           
+  multiply infer_meta                                 110     0.08 / 0.00 / 0.00 / 0.00 / 2.22          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  multiply compute                                    110     1.17 / 0.01 / 0.02 / 0.01 / 31.75         0.38 / 0.00 / 0.01 / 0.00 / 52.26         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  90      - / - / - / - / -                         0.28 / 0.00 / 0.00 / 0.00 / 74.85         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.06 / 0.01 / 0.01 / 0.01 / 16.16         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 9.00          -           
+  multiply node_creation                              20      0.09 / 0.00 / 0.01 / 0.00 / 2.53          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+maximum dygraph                                       80      1.58 / 0.02 / 0.03 / 0.02 / 0.04          0.62 / 0.01 / 0.02 / 0.00 / 0.02          0           
+  maximum infer_meta                                  40      0.04 / 0.00 / 0.00 / 0.00 / 2.34          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  maximum compute                                     40      0.52 / 0.01 / 0.02 / 0.01 / 32.79         0.31 / 0.01 / 0.02 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  6       - / - / - / - / -                         0.04 / 0.01 / 0.01 / 0.01 / 11.30         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  34      - / - / - / - / -                         0.28 / 0.01 / 0.02 / 0.00 / 88.70         -           
+minimum dygraph                                       80      1.72 / 0.02 / 0.04 / 0.02 / 0.05          0.62 / 0.01 / 0.02 / 0.00 / 0.02          0           
+  minimum infer_meta                                  40      0.06 / 0.00 / 0.00 / 0.00 / 3.45          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  minimum compute                                     40      0.58 / 0.01 / 0.02 / 0.01 / 33.85         0.31 / 0.01 / 0.02 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  6       - / - / - / - / -                         0.04 / 0.01 / 0.01 / 0.01 / 11.44         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  34      - / - / - / - / -                         0.28 / 0.01 / 0.02 / 0.00 / 88.56         -           
+max dygraph                                           40      1.64 / 0.04 / 0.06 / 0.03 / 0.05          0.57 / 0.01 / 0.03 / 0.01 / 0.02          0           
+  max infer_meta                                      20      0.04 / 0.00 / 0.00 / 0.00 / 2.66          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  max compute                                         20      0.66 / 0.03 / 0.05 / 0.02 / 40.27         0.28 / 0.01 / 0.03 / 0.01 / 50.00         -           
+    void cub::DeviceReduceKernel<cub::DeviceReduc...  3       - / - / - / - / -                         0.02 / 0.01 / 0.01 / 0.00 / 5.32          -           
+    void cub::DeviceReduceSingleTileKernel<cub::D...  3       - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 4.73          -           
+    void phi::funcs::ReduceAnyKernel<float, float...  17      - / - / - / - / -                         0.13 / 0.01 / 0.02 / 0.00 / 46.99         -           
+    void phi::funcs::ReduceHigherDimKernel<float,...  17      - / - / - / - / -                         0.12 / 0.01 / 0.01 / 0.01 / 42.95         -           
+clip dygraph                                          80      1.52 / 0.02 / 0.04 / 0.01 / 0.04          0.55 / 0.01 / 0.03 / 0.00 / 0.02          0           
+  clip infer_meta                                     40      0.03 / 0.00 / 0.00 / 0.00 / 1.86          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  clip compute                                        40      0.48 / 0.01 / 0.04 / 0.01 / 31.80         0.28 / 0.01 / 0.03 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  40      - / - / - / - / -                         0.28 / 0.01 / 0.03 / 0.00 / 100.00        -           
+less_than dygraph                                     164     2.87 / 0.02 / 0.04 / 0.01 / 0.08          0.53 / 0.00 / 0.00 / 0.00 / 0.02          0           
+  less_than infer_meta                                82      0.05 / 0.00 / 0.00 / 0.00 / 1.58          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  less_than compute                                   82      0.94 / 0.01 / 0.02 / 0.01 / 32.88         0.26 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  42      - / - / - / - / -                         0.13 / 0.00 / 0.00 / 0.00 / 47.75         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  40      - / - / - / - / -                         0.14 / 0.00 / 0.00 / 0.00 / 52.25         -           
+stack dygraph                                         120     5.65 / 0.05 / 0.17 / 0.02 / 0.16          0.52 / 0.00 / 0.01 / 0.00 / 0.02          0           
+  stack infer_meta                                    60      0.22 / 0.00 / 0.01 / 0.00 / 3.88          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  stack compute                                       60      1.03 / 0.02 / 0.05 / 0.01 / 18.23         0.26 / 0.00 / 0.01 / 0.00 / 50.00         -           
+    void phi::funcs::StackCudaKernel<int, int, ph...  2       - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 2.60          -           
+    MEMCPY_HtoD                                       8       - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 3.49          -           
+    void phi::funcs::StackCudaKernel<int, int, ph...  8       - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 11.70         -           
+    void phi::funcs::StackCudaKernel<float, int, ...  40      - / - / - / - / -                         0.18 / 0.00 / 0.01 / 0.00 / 68.08         -           
+    void phi::funcs::StackCudaKernel<int, int, ph...  7       - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 9.82          -           
+    void phi::funcs::StackCudaKernel<int, int, ph...  3       - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 4.31          -           
+scatter dygraph                                       80      2.24 / 0.03 / 0.05 / 0.02 / 0.06          0.52 / 0.01 / 0.01 / 0.01 / 0.02          0           
+  scatter infer_meta                                  40      0.02 / 0.00 / 0.00 / 0.00 / 0.98          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  scatter compute                                     40      0.87 / 0.02 / 0.04 / 0.02 / 38.87         0.26 / 0.01 / 0.01 / 0.01 / 50.00         -           
+    void phi::funcs::ScatterCUDAKernel<int, int>(...  40      - / - / - / - / -                         0.14 / 0.00 / 0.00 / 0.00 / 53.19         -           
+greater_equal dygraph                                 140     2.58 / 0.02 / 0.05 / 0.01 / 0.07          0.48 / 0.00 / 0.00 / 0.00 / 0.01          0           
+  greater_equal infer_meta                            70      0.05 / 0.00 / 0.00 / 0.00 / 1.98          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  greater_equal compute                               70      0.83 / 0.01 / 0.04 / 0.01 / 31.92         0.24 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 12.98         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  20      - / - / - / - / -                         0.07 / 0.00 / 0.00 / 0.00 / 30.91         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  40      - / - / - / - / -                         0.14 / 0.00 / 0.00 / 0.00 / 56.11         -           
+log dygraph                                           120     1.76 / 0.01 / 0.04 / 0.01 / 0.05          0.43 / 0.00 / 0.01 / 0.00 / 0.01          0           
+  log infer_meta                                      60      0.02 / 0.00 / 0.00 / 0.00 / 1.13          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  log compute                                         60      0.54 / 0.01 / 0.02 / 0.01 / 30.82         0.22 / 0.00 / 0.01 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  60      - / - / - / - / -                         0.22 / 0.00 / 0.01 / 0.00 / 100.00        -           
+numel dygraph                                         380     7.80 / 0.02 / 0.06 / 0.01 / 0.22          0.41 / 0.00 / 0.00 / 0.00 / 0.01          0           
+  numel infer_meta                                    190     0.07 / 0.00 / 0.00 / 0.00 / 0.87          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  numel compute                                       190     2.87 / 0.02 / 0.04 / 0.01 / 36.78         0.20 / 0.00 / 0.00 / 0.00 / 50.00         -           
+expand_as dygraph                                     20      0.50 / 0.02 / 0.03 / 0.02 / 0.01          0.35 / 0.02 / 0.02 / 0.01 / 0.01          0           
+  expand_as infer_meta                                10      0.01 / 0.00 / 0.00 / 0.00 / 2.14          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  expand_as compute                                   10      0.17 / 0.02 / 0.02 / 0.02 / 35.26         0.17 / 0.02 / 0.02 / 0.01 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.17 / 0.02 / 0.02 / 0.01 / 100.00        -           
+GatherNdGradNode                                      20      0.60 / 0.03 / 0.05 / 0.03 / 0.02          0.31 / 0.02 / 0.03 / 0.01 / 0.01          0           
+  gather_nd_grad infer_meta                           20      0.01 / 0.00 / 0.00 / 0.00 / 2.08          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  gather_nd_grad compute                              20      0.38 / 0.02 / 0.03 / 0.02 / 63.77         0.31 / 0.02 / 0.03 / 0.01 / 100.00        -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  20      - / - / - / - / -                         0.16 / 0.01 / 0.02 / 0.00 / 51.01         -           
+    void phi::funcs::ScatterNdCUDAKernel<float, l...  20      - / - / - / - / -                         0.15 / 0.01 / 0.01 / 0.00 / 48.99         -           
+gather_nd dygraph                                     40      0.99 / 0.02 / 0.05 / 0.02 / 0.03          0.31 / 0.01 / 0.02 / 0.01 / 0.01          0           
+  gather_nd infer_meta                                20      0.02 / 0.00 / 0.00 / 0.00 / 2.38          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  gather_nd compute                                   20      0.27 / 0.01 / 0.03 / 0.01 / 27.05         0.15 / 0.01 / 0.02 / 0.01 / 50.00         -           
+    void phi::funcs::GatherNdCUDAKernel<float, lo...  20      - / - / - / - / -                         0.15 / 0.01 / 0.02 / 0.01 / 100.00        -           
+  gather_nd node_creation                             20      0.06 / 0.00 / 0.01 / 0.00 / 6.09          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+transpose dygraph                                     40      1.08 / 0.03 / 0.04 / 0.02 / 0.03          0.30 / 0.01 / 0.01 / 0.01 / 0.01          0           
+  transpose infer_meta                                20      0.02 / 0.00 / 0.00 / 0.00 / 1.45          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  transpose compute                                   20      0.37 / 0.02 / 0.03 / 0.01 / 34.15         0.15 / 0.01 / 0.01 / 0.01 / 50.00         -           
+    void phi::funcs::TilingSwapDim1And2<float, 25...  10      - / - / - / - / -                         0.08 / 0.01 / 0.01 / 0.01 / 52.26         -           
+    void phi::funcs::TilingSwapDim1And2<unsigned ...  3       - / - / - / - / -                         0.02 / 0.01 / 0.01 / 0.01 / 14.61         -           
+    void phi::funcs::TilingSwapDim1And2<unsigned ...  6       - / - / - / - / -                         0.04 / 0.01 / 0.01 / 0.01 / 29.09         -           
+    void phi::funcs::TilingSwapDim1And2<unsigned ...  1       - / - / - / - / -                         0.01 / 0.01 / 0.01 / 0.01 / 4.04          -           
+  transpose node_creation                             20      0.03 / 0.00 / 0.00 / 0.00 / 2.94          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+mean_all dygraph                                      40      2.22 / 0.06 / 0.11 / 0.04 / 0.06          0.29 / 0.01 / 0.01 / 0.00 / 0.01          0           
+  mean_all infer_meta                                 20      0.01 / 0.00 / 0.00 / 0.00 / 0.65          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  mean_all compute                                    20      0.88 / 0.04 / 0.10 / 0.03 / 39.47         0.14 / 0.01 / 0.01 / 0.00 / 50.00         -           
+    void cub::DeviceReduceKernel<cub::DeviceReduc...  10      - / - / - / - / -                         0.05 / 0.01 / 0.01 / 0.00 / 34.57         -           
+    void cub::DeviceReduceSingleTileKernel<cub::D...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 30.86         -           
+    void cub::DeviceReduceSingleTileKernel<cub::D...  10      - / - / - / - / -                         0.05 / 0.01 / 0.01 / 0.00 / 34.57         -           
+  mean_all node_creation                              20      0.07 / 0.00 / 0.01 / 0.00 / 2.99          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+meshgrid dygraph                                      20      1.73 / 0.09 / 0.10 / 0.08 / 0.05          0.26 / 0.01 / 0.01 / 0.01 / 0.01          0           
+  meshgrid infer_meta                                 10      0.03 / 0.00 / 0.00 / 0.00 / 1.71          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  meshgrid compute                                    10      0.68 / 0.07 / 0.08 / 0.06 / 39.58         0.13 / 0.01 / 0.01 / 0.01 / 50.00         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  20      - / - / - / - / -                         0.07 / 0.00 / 0.00 / 0.00 / 57.48         -           
+sigmoid_cross_entropy_with_logits dygraph             40      1.12 / 0.03 / 0.04 / 0.02 / 0.03          0.26 / 0.01 / 0.01 / 0.01 / 0.01          0           
+  sigmoid_cross_entropy_with_logits infer_meta        20      0.02 / 0.00 / 0.00 / 0.00 / 1.71          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  sigmoid_cross_entropy_with_logits compute           20      0.35 / 0.02 / 0.02 / 0.01 / 31.49         0.13 / 0.01 / 0.01 / 0.01 / 50.00         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.13 / 0.01 / 0.01 / 0.01 / 100.00        -           
+  sigmoid_cross_entropy_with_logits node_creation     20      0.05 / 0.00 / 0.00 / 0.00 / 4.14          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+arange dygraph                                        80      2.08 / 0.03 / 0.06 / 0.02 / 0.06          0.23 / 0.00 / 0.00 / 0.00 / 0.01          0           
+  arange infer_meta                                   40      0.03 / 0.00 / 0.00 / 0.00 / 1.68          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  arange compute                                      40      0.68 / 0.02 / 0.04 / 0.01 / 32.85         0.12 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    void phi::Range<long, long>(long, long, long,...  20      - / - / - / - / -                         0.06 / 0.00 / 0.00 / 0.00 / 49.56         -           
+    void phi::Range<float, float>(float, float, l...  20      - / - / - / - / -                         0.06 / 0.00 / 0.00 / 0.00 / 50.44         -           
+cross_entropy_with_softmax dygraph                    20      0.64 / 0.03 / 0.04 / 0.03 / 0.02          0.19 / 0.01 / 0.01 / 0.01 / 0.01          0           
+  cross_entropy_with_softmax infer_meta               10      0.01 / 0.00 / 0.00 / 0.00 / 1.71          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  cross_entropy_with_softmax compute                  10      0.17 / 0.02 / 0.02 / 0.01 / 26.63         0.10 / 0.01 / 0.01 / 0.01 / 50.00         -           
+    void phi::WarpSoftmaxForward<float, long, flo...  10      - / - / - / - / -                         0.10 / 0.01 / 0.01 / 0.01 / 100.00        -           
+  cross_entropy_with_softmax node_creation            10      0.06 / 0.01 / 0.01 / 0.00 / 9.12          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+add_n dygraph                                         20      1.20 / 0.06 / 0.10 / 0.05 / 0.03          0.17 / 0.01 / 0.01 / 0.01 / 0.01          0           
+  GpuMemcpyAsync:CPU->GPU                             10      0.12 / 0.01 / 0.02 / 0.01 / 9.96          0.01 / 0.00 / 0.00 / 0.00 / 6.09          -           
+    MEMCPY_HtoD                                       10      - / - / - / - / -                         0.01 / 0.00 / 0.00 / 0.00 / 100.00        -           
+  add_n node_creation                                 10      0.07 / 0.01 / 0.01 / 0.01 / 5.89          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  void Eigen::internal::EigenMetaKernel<Eigen::Te...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 15.03         -           
+  void phi::SumArrayCUDAKernel<float>(float**, fl...  10      - / - / - / - / -                         0.05 / 0.00 / 0.01 / 0.00 / 28.88         -           
+TransposeGradNode                                     20      0.59 / 0.03 / 0.06 / 0.02 / 0.02          0.16 / 0.01 / 0.01 / 0.01 / 0.00          0           
+  transpose_grad infer_meta                           20      0.03 / 0.00 / 0.00 / 0.00 / 5.09          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  transpose_grad compute                              20      0.36 / 0.02 / 0.04 / 0.01 / 60.60         0.16 / 0.01 / 0.01 / 0.01 / 100.00        -           
+    void phi::funcs::TilingSwapDim1And2<float, 25...  10      - / - / - / - / -                         0.09 / 0.01 / 0.01 / 0.01 / 54.82         -           
+    void phi::funcs::TilingSwapDim1And2<unsigned ...  3       - / - / - / - / -                         0.02 / 0.01 / 0.01 / 0.01 / 13.69         -           
+    void phi::funcs::TilingSwapDim1And2<unsigned ...  6       - / - / - / - / -                         0.05 / 0.01 / 0.01 / 0.01 / 27.85         -           
+    void phi::funcs::TilingSwapDim1And2<unsigned ...  1       - / - / - / - / -                         0.01 / 0.01 / 0.01 / 0.01 / 3.64          -           
+one_hot dygraph                                       20      0.74 / 0.04 / 0.06 / 0.03 / 0.02          0.15 / 0.01 / 0.01 / 0.01 / 0.00          0           
+  one_hot infer_meta                                  10      0.01 / 0.00 / 0.00 / 0.00 / 1.72          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  one_hot compute                                     10      0.29 / 0.03 / 0.05 / 0.02 / 39.35         0.07 / 0.01 / 0.01 / 0.01 / 50.00         -           
+    void Eigen::internal::EigenMetaKernel<Eigen::...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 52.10         -           
+    void phi::FillOutputKernel<int, float>(int co...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 47.90         -           
+ConcatGradNode                                        20      0.59 / 0.03 / 0.05 / 0.02 / 0.02          0.14 / 0.01 / 0.01 / 0.00 / 0.00          0           
+  concat_grad infer_meta                              20      0.03 / 0.00 / 0.00 / 0.00 / 5.43          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  concat_grad compute                                 20      0.32 / 0.02 / 0.03 / 0.01 / 54.27         0.14 / 0.01 / 0.01 / 0.00 / 100.00        -           
+    void phi::funcs::SplitTensorWithDifferentShap...  20      - / - / - / - / -                         0.14 / 0.01 / 0.01 / 0.00 / 100.00        -           
+AddNGradNodeFinal                                     10      0.85 / 0.08 / 0.16 / 0.07 / 0.02          0.14 / 0.01 / 0.01 / 0.01 / 0.00          0           
+abs dygraph                                           40      0.85 / 0.02 / 0.04 / 0.02 / 0.02          0.13 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  abs infer_meta                                      20      0.01 / 0.00 / 0.00 / 0.00 / 1.41          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  abs compute                                         20      0.25 / 0.01 / 0.02 / 0.01 / 29.62         0.06 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.06 / 0.00 / 0.00 / 0.00 / 100.00        -           
+  abs node_creation                                   20      0.03 / 0.00 / 0.00 / 0.00 / 3.66          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+MultiplyGradNode                                      20      0.94 / 0.05 / 0.10 / 0.02 / 0.03          0.12 / 0.01 / 0.01 / 0.01 / 0.00          0           
+  multiply_grad infer_meta                            20      0.03 / 0.00 / 0.01 / 0.00 / 2.71          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  multiply_grad compute                               20      0.59 / 0.03 / 0.07 / 0.01 / 63.21         0.12 / 0.01 / 0.01 / 0.01 / 100.00        -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.06 / 0.01 / 0.01 / 0.01 / 49.02         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 24.95         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 26.04         -           
+SumGradNode                                           30      0.58 / 0.02 / 0.04 / 0.01 / 0.02          0.10 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  sum_grad infer_meta                                 30      0.01 / 0.00 / 0.00 / 0.00 / 2.14          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  sum_grad compute                                    30      0.35 / 0.01 / 0.02 / 0.01 / 60.86         0.10 / 0.00 / 0.00 / 0.00 / 100.00        -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  30      - / - / - / - / -                         0.10 / 0.00 / 0.00 / 0.00 / 100.00        -           
+SigmoidCrossEntropyWithLogitsGradNode                 20      0.45 / 0.02 / 0.04 / 0.02 / 0.01          0.10 / 0.01 / 0.01 / 0.00 / 0.00          0           
+  sigmoid_cross_entropy_with_logits_grad infer_meta   20      0.01 / 0.00 / 0.00 / 0.00 / 1.68          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  sigmoid_cross_entropy_with_logits_grad compute      20      0.25 / 0.01 / 0.02 / 0.01 / 54.55         0.10 / 0.01 / 0.01 / 0.00 / 100.00        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.10 / 0.01 / 0.01 / 0.00 / 100.00        -           
+ScaleGradNode                                         30      0.40 / 0.01 / 0.03 / 0.01 / 0.01          0.08 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  scale infer_meta                                    30      0.01 / 0.00 / 0.00 / 0.00 / 2.67          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  scale compute                                       30      0.22 / 0.01 / 0.01 / 0.01 / 54.88         0.08 / 0.00 / 0.00 / 0.00 / 100.00        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  30      - / - / - / - / -                         0.08 / 0.00 / 0.00 / 0.00 / 100.00        -           
+tile dygraph                                          20      0.66 / 0.03 / 0.06 / 0.03 / 0.02          0.08 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  tile infer_meta                                     10      0.02 / 0.00 / 0.00 / 0.00 / 3.03          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  tile compute                                        10      0.24 / 0.02 / 0.04 / 0.02 / 36.81         0.04 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 100.00        -           
+AbsGradNode                                           20      0.38 / 0.02 / 0.04 / 0.01 / 0.01          0.08 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  abs_grad infer_meta                                 20      0.01 / 0.00 / 0.00 / 0.00 / 2.14          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  abs_grad compute                                    20      0.21 / 0.01 / 0.02 / 0.01 / 55.24         0.08 / 0.00 / 0.00 / 0.00 / 100.00        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  20      - / - / - / - / -                         0.08 / 0.00 / 0.00 / 0.00 / 100.00        -           
+bitwise_not dygraph                                   20      1.19 / 0.06 / 0.42 / 0.02 / 0.03          0.06 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  bitwise_not infer_meta                              10      0.01 / 0.00 / 0.00 / 0.00 / 0.58          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  bitwise_not compute                                 10      0.13 / 0.01 / 0.01 / 0.01 / 10.56         0.03 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    void phi::funcs::VectorizedElementwiseKernel<...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 100.00        -           
+MeanAllGradNode                                       20      0.35 / 0.02 / 0.03 / 0.01 / 0.01          0.06 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  mean_all_grad infer_meta                            20      0.01 / 0.00 / 0.00 / 0.00 / 2.77          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  mean_all_grad compute                               20      0.19 / 0.01 / 0.02 / 0.01 / 54.83         0.06 / 0.00 / 0.00 / 0.00 / 100.00        -           
+    void phi::MeanRunKernel<float>(float const*, ...  20      - / - / - / - / -                         0.06 / 0.00 / 0.00 / 0.00 / 100.00        -           
+CrossEntropyWithSoftmaxGradNode                       10      0.26 / 0.03 / 0.04 / 0.02 / 0.01          0.05 / 0.01 / 0.01 / 0.01 / 0.00          0           
+  cross_entropy_with_softmax_grad infer_meta          10      0.01 / 0.00 / 0.00 / 0.00 / 3.45          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  cross_entropy_with_softmax_grad compute             10      0.13 / 0.01 / 0.02 / 0.01 / 48.29         0.05 / 0.01 / 0.01 / 0.01 / 100.00        -           
+    void phi::SoftmaxWithCrossEntropyGradHardLabe...  10      - / - / - / - / -                         0.05 / 0.01 / 0.01 / 0.01 / 100.00        -           
+squeeze dygraph                                       60      1.96 / 0.03 / 0.05 / 0.01 / 0.06          0.04 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  squeeze infer_meta                                  30      0.07 / 0.00 / 0.00 / 0.00 / 3.54          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  squeeze compute                                     30      0.03 / 0.00 / 0.00 / 0.00 / 1.73          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  squeeze node_creation                               10      0.02 / 0.00 / 0.00 / 0.00 / 0.79          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  GpuMemcpySync:CUDAPinned->GPU                       20      0.41 / 0.02 / 0.03 / 0.02 / 21.03         0.02 / 0.00 / 0.00 / 0.00 / 50.00         -           
+    MEMCPY_HtoD                                       20      - / - / - / - / -                         0.02 / 0.00 / 0.00 / 0.00 / 100.00        -           
+bitwise_or dygraph                                    10      0.26 / 0.03 / 0.03 / 0.02 / 0.01          0.04 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  bitwise_or infer_meta                               10      0.02 / 0.00 / 0.00 / 0.00 / 6.21          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  bitwise_or compute                                  10      0.17 / 0.02 / 0.02 / 0.02 / 64.98         0.04 / 0.00 / 0.00 / 0.00 / 100.00        -           
+    void phi::funcs::VectorizedBroadcastKernel<ph...  10      - / - / - / - / -                         0.04 / 0.00 / 0.00 / 0.00 / 100.00        -           
+full_ dygraph                                         10      0.28 / 0.03 / 0.03 / 0.03 / 0.01          0.03 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  full_ infer_meta                                    10      0.01 / 0.00 / 0.00 / 0.00 / 2.82          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  full_ compute                                       10      0.20 / 0.02 / 0.02 / 0.02 / 70.54         0.03 / 0.00 / 0.00 / 0.00 / 100.00        -           
+    void phi::funcs::VectorizedElementwiseKernel<...  10      - / - / - / - / -                         0.03 / 0.00 / 0.00 / 0.00 / 100.00        -           
+GradNodeAccumulation                                  560     1.79 / 0.00 / 0.01 / 0.00 / 0.05          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+ReshapeGradNode                                       110     0.95 / 0.01 / 0.02 / 0.01 / 0.03          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  reshape_grad infer_meta                             110     0.07 / 0.00 / 0.00 / 0.00 / 6.85          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  reshape_grad compute                                110     0.11 / 0.00 / 0.00 / 0.00 / 11.18         0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+SqueezeGradNode                                       10      0.10 / 0.01 / 0.02 / 0.01 / 0.00          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  squeeze_grad infer_meta                             10      0.00 / 0.00 / 0.00 / 0.00 / 3.13          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  squeeze_grad compute                                10      0.01 / 0.00 / 0.00 / 0.00 / 14.26         0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+SubtractGradNode                                      20      0.17 / 0.01 / 0.02 / 0.01 / 0.00          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  subtract_grad infer_meta                            20      0.01 / 0.00 / 0.00 / 0.00 / 4.61          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  subtract_grad compute                               20      0.02 / 0.00 / 0.00 / 0.00 / 11.29         0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+unsqueeze dygraph                                     340     2.76 / 0.01 / 0.03 / 0.00 / 0.08          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  unsqueeze infer_meta                                170     0.22 / 0.00 / 0.00 / 0.00 / 7.84          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  unsqueeze compute                                   170     0.14 / 0.00 / 0.00 / 0.00 / 4.99          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+reshape dygraph                                       420     4.72 / 0.01 / 0.04 / 0.00 / 0.13          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  reshape infer_meta                                  210     0.39 / 0.00 / 0.01 / 0.00 / 8.25          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  reshape compute                                     210     0.21 / 0.00 / 0.01 / 0.00 / 4.42          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  reshape node_creation                               110     0.23 / 0.00 / 0.01 / 0.00 / 4.84          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+shape dygraph                                         160     1.63 / 0.01 / 0.02 / 0.01 / 0.05          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  shape infer_meta                                    80      0.05 / 0.00 / 0.00 / 0.00 / 3.09          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  shape compute                                       80      0.32 / 0.00 / 0.01 / 0.00 / 19.68         0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+flatten dygraph                                       400     4.03 / 0.01 / 0.03 / 0.00 / 0.11          0.00 / 0.00 / 0.00 / 0.00 / 0.00          0           
+  flatten infer_meta                                  200     0.27 / 0.00 / 0.00 / 0.00 / 6.81          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+  flatten compute                                     200     0.27 / 0.00 / 0.00 / 0.00 / 6.62          0.00 / 0.00 / 0.00 / 0.00 / 0.00          -           
+----------------------------------------------------  ------  ----------------------------------------  ----------------------------------------  ----------  
+
+
+---------------------------------------------------------------Kernel Summary---------------------------------------------------------------
+Time unit: ms
+------------------------------------------------------------------------------------------  ------  ----------------------------------------  
+Name                                                                                        Calls   GPU Total / Avg / Max / Min / Ratio(%)    
+------------------------------------------------------------------------------------------  ------  ----------------------------------------  
+void phi::GPURoiAlignBackward<float>                                                        10      241.52 / 24.15 / 35.23 / 19.18 / 10.64    
+void cudnn::ops::nchwToNhwcKernel<__half, __half, float, false, true, (cudnnKernelDataT...  1991    222.57 / 0.11 / 1.12 / 0.00 / 9.81        
+void cudnn::bn_fw_inf_1C11_kernel_NCHW<__half, float, true, 1>                              530     214.80 / 0.41 / 3.28 / 0.01 / 9.47        
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  99      119.31 / 1.21 / 2.56 / 0.04 / 5.26        
+void phi::KeBNBackwardData<phi::dtype::float16, (phi::DataLayout)2>                         420     102.04 / 0.24 / 1.26 / 0.02 / 4.50        
+void phi::GPURoiAlignForward<float>                                                         10      101.41 / 10.14 / 12.65 / 8.99 / 4.47      
+volta_s884cudnn_fp16_256x128_ldg8_wgrad_idx_exp_interior_nhwc_nt_v1                         52      100.59 / 1.93 / 2.50 / 0.12 / 4.43        
+void cudnn::ops::nhwcToNchwKernel<__half, __half, float, true, false, (cudnnKernelDataT...  469     99.68 / 0.21 / 1.28 / 0.00 / 4.39         
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::dgrad::Kernel_traits<xmma_cudn...  88      95.61 / 1.09 / 2.82 / 0.07 / 4.21         
+void xmma_cudnn::ext::implicit_gemm::strided_dgrad_indexed::kernel<xmma_cudnn::ext::imp...  23      76.85 / 3.34 / 3.65 / 0.22 / 3.39         
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::AddFunctor<phi::dtype::float16>,...  300     68.88 / 0.23 / 0.77 / 0.02 / 3.04         
+volta_fp16_s884cudnn_fp16_128x128_ldg8_dgrad_f2f_exp_small_nhwc2nchw_tt_v1                  131     66.63 / 0.51 / 2.57 / 0.03 / 2.94         
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_traits<x...  50      60.39 / 1.21 / 1.22 / 1.20 / 2.66         
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  25      56.43 / 2.26 / 2.70 / 0.12 / 2.49         
+void phi::funcs::VectorizedElementwiseKernel<phi::dtype::float16, phi::funcs::CudaReluG...  390     54.11 / 0.14 / 0.77 / 0.01 / 2.38         
+void phi::funcs::VectorizedElementwiseKernel<phi::dtype::float16, phi::funcs::CudaReluF...  490     44.93 / 0.09 / 0.52 / 0.01 / 1.98         
+void phi::funcs::VectorizedElementwiseKernel<float, phi::CastFunctor<phi::dtype::float1...  610     40.46 / 0.07 / 1.60 / 0.00 / 1.78         
+void phi::funcs::VectorizedElementwiseKernel<phi::dtype::float16, phi::CastFunctor<floa...  730     39.83 / 0.05 / 1.51 / 0.00 / 1.76         
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  47      39.57 / 0.84 / 2.54 / 0.13 / 1.74         
+void cutlass_cudnn::Kernel<cutlass_tensorop_f16_s884wgrad_analytic_f16_256x128_32x2>        17      36.18 / 2.13 / 2.34 / 1.44 / 1.59         
+void cudnn::detail::dgrad_engine<float, 512, 6, 5, 3, 3, 3, false>                          10      34.26 / 3.43 / 5.56 / 1.57 / 1.51         
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::AddFunctor<float>, float, 2, 1, ...  140     31.19 / 0.22 / 2.97 / 0.00 / 1.37         
+void phi::funcs::KernelPool2DGrad<phi::dtype::float16, phi::funcs::AvgPoolGrad<phi::dty...  10      19.56 / 1.96 / 1.96 / 1.95 / 0.86         
+phi::NMSKernel(int, float, float const*, unsigned long*, bool)                              20      19.14 / 0.96 / 1.01 / 0.77 / 0.84         
+volta_scudnn_128x128_stridedB_splitK_small_nn_v1                                            7       18.52 / 2.65 / 3.77 / 2.21 / 0.82         
+volta_fp16_s884cudnn_fp16_128x128_ldg8_relu_f2f_exp_small_nhwc2nchw_tn_v1                   116     18.44 / 0.16 / 1.41 / 0.08 / 0.81         
+volta_fp16_s884cudnn_fp16_256x128_ldg8_relu_filter1x1_stg8_interior_nchw_nn_v1              148     17.63 / 0.12 / 0.22 / 0.05 / 0.78         
+volta_scudnn_128x128_relu_small_nn_v1                                                       6       14.98 / 2.50 / 2.82 / 2.37 / 0.66         
+void phi::funcs::ReduceAnyKernel<phi::dtype::float16, phi::dtype::float16, float, phi::...  10      12.29 / 1.23 / 1.23 / 1.23 / 0.54         
+volta_fp16_s884cudnn_fp16_256x64_ldg8_relu_f2f_exp_small_nhwc2nchw_tn_v1                    67      11.42 / 0.17 / 1.57 / 0.07 / 0.50         
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_traits<x...  127     11.41 / 0.09 / 0.17 / 0.06 / 0.50         
+void phi::funcs::ForRangeElemwiseOp<phi::DenseMomentumFunctor<float, float, float, (phi...  490     10.71 / 0.02 / 0.24 / 0.00 / 0.47         
+volta_s884cudnn_fp16_128x128_ldg8_wgrad_idx_exp_interior_nhwc_nt_v1                         68      9.39 / 0.14 / 0.23 / 0.09 / 0.41          
+volta_fp16_s884cudnn_fp16_256x128_ldg8_dgrad_f2f_exp_small_nhwc_tt_v1                       11      9.13 / 0.83 / 1.93 / 0.07 / 0.40          
+volta_fp16_s884cudnn_fp16_128x128_ldg8_dgrad_Dgrad1x1_interior_nchw_nt_v1                   89      6.89 / 0.08 / 0.19 / 0.03 / 0.30          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_traits<x...  65      5.93 / 0.09 / 0.25 / 0.04 / 0.26          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  20      5.24 / 0.26 / 0.27 / 0.26 / 0.23          
+volta_scudnn_128x128_stridedB_splitK_medium_nn_v1                                           3       4.96 / 1.65 / 2.04 / 1.04 / 0.22          
+volta_scudnn_128x64_relu_interior_nn_v1                                                     2       4.86 / 2.43 / 3.67 / 1.19 / 0.21          
+void phi::CheckFiniteAndUnscale<float, float>                                               10      4.44 / 0.44 / 0.45 / 0.44 / 0.20          
+volta_scudnn_128x32_sliced1x4_ldg4_relu_exp_medium_nhwc_tn_v1                               2       3.91 / 1.96 / 2.02 / 1.89 / 0.17          
+void phi::FilterBBoxes<float, 512>                                                          20      3.68 / 0.18 / 0.19 / 0.18 / 0.16          
+void dgrad_2d<11>                                                                           20      3.66 / 0.18 / 0.27 / 0.12 / 0.16          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  584     3.54 / 0.01 / 0.05 / 0.00 / 0.16          
+void phi::funcs::ScatterCUDAKernel<phi::dtype::float16, long>                               10      3.13 / 0.31 / 0.52 / 0.13 / 0.14          
+void pooling_fw_4d_kernel<__half, float, cudnn::maxpooling_func<float, (cudnnNanPropaga...  10      2.91 / 0.29 / 0.40 / 0.19 / 0.13          
+_ZN13cutlass_cudnn6KernelINS_4conv6kernel23ImplicitGemmConvolutionINS1_11threadblock21I...  21      2.85 / 0.14 / 0.18 / 0.11 / 0.13          
+volta_fp16_s884cudnn_fp16_256x64_ldg8_dgrad_f2f_exp_small_nhwc2nchw_tt_v1                   24      2.63 / 0.11 / 0.16 / 0.06 / 0.12          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  780     2.52 / 0.00 / 0.01 / 0.00 / 0.11          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  12      2.49 / 0.21 / 0.44 / 0.13 / 0.11          
+void cask_cudnn::first_layer_fwd_kernel<4, 7, 7, 64>                                        9       2.45 / 0.27 / 0.37 / 0.17 / 0.11          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_traits<x...  14      2.42 / 0.17 / 0.30 / 0.10 / 0.11          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::funcs::CudaReluGradFunctor<flo...  20      2.20 / 0.11 / 0.17 / 0.05 / 0.10          
+void cudnn::ops::nhwcToNchwKernel<float, __half, float, true, false, (cudnnKernelDataTy...  105     2.20 / 0.02 / 0.13 / 0.01 / 0.10          
+void phi::funcs::KeMatrixTopK<float, 1, 64>                                                 40      2.14 / 0.05 / 0.14 / 0.00 / 0.09          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::AddFunctor<float>, float, 2, 1, ...  76      2.10 / 0.03 / 0.12 / 0.00 / 0.09          
+void cub::RadixSortScanBinsKernel<cub::DeviceRadixSortPolicy<int, int, int>::Policy700,...  100     2.04 / 0.02 / 0.02 / 0.02 / 0.09          
+void cub::RadixSortScanBinsKernel<cub::DeviceRadixSortPolicy<float, int, int>::Policy70...  100     2.03 / 0.02 / 0.02 / 0.02 / 0.09          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_traits<x...  16      1.99 / 0.12 / 0.17 / 0.09 / 0.09          
+volta_fp16_scudnn_fp16_128x64_relu_medium_nn_v1                                             7       1.91 / 0.27 / 0.63 / 0.07 / 0.08          
+void phi::funcs::GatherCUDAKernel<phi::dtype::float16, long>                                10      1.75 / 0.17 / 0.28 / 0.08 / 0.08          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::SubtractFunctor<float>, float, 2...  440     1.61 / 0.00 / 0.05 / 0.00 / 0.07          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::dgrad::Kernel_traits<xmma_cudn...  1       1.58 / 1.58 / 1.58 / 1.58 / 0.07          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::funcs::CudaReluFunctor<float>,...  20      1.50 / 0.08 / 0.12 / 0.03 / 0.07          
+void phi::funcs::ReduceAnyKernel<float, float, float, phi::kps::AddFunctor<float>, phi:...  50      1.46 / 0.03 / 0.07 / 0.01 / 0.06          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  11      1.45 / 0.13 / 0.15 / 0.13 / 0.06          
+cudnn::cnn::dgrad_1x1_stride_2x2(cudnn::cnn::Dgrad2d_First_Layer_884_NHWC_Engine_Impl::...  9       1.33 / 0.15 / 0.20 / 0.09 / 0.06          
+void cutlass_cudnn::Kernel<cutlass_tensorop_f16_s884wgrad_analytic_f16_128x128_32x2>        9       1.29 / 0.14 / 0.17 / 0.11 / 0.06          
+void cub::DeviceRadixSortDownsweepKernel<cub::DeviceRadixSortPolicy<int, int, int>::Pol...  60      1.28 / 0.02 / 0.03 / 0.02 / 0.06          
+void cub::DeviceRadixSortDownsweepKernel<cub::DeviceRadixSortPolicy<float, int, int>::P...  60      1.25 / 0.02 / 0.04 / 0.02 / 0.05          
+void phi::funcs::SelectKernel<bool, bool, long, long, phi::IndexFunctor<bool, long, lon...  140     1.24 / 0.01 / 0.01 / 0.01 / 0.05          
+void cask_cudnn::computeOffsetsKernel<false, false>                                         348     1.20 / 0.00 / 0.01 / 0.00 / 0.05          
+void phi::funcs::VectorizedElementwiseKernel<int, phi::FullFunctor<int, int>, 0, 1, 4>      470     1.19 / 0.00 / 0.00 / 0.00 / 0.05          
+void phi::funcs::ScatterInitCUDAKernel<phi::dtype::float16, long>                           10      1.16 / 0.12 / 0.19 / 0.05 / 0.05          
+volta_fp16_s884cudnn_fp16_128x128_ldg8_splitK_dgrad_f2f_exp_small_nhwc_tt_v1                10      1.15 / 0.12 / 0.12 / 0.11 / 0.05          
+void phi::funcs::CumsumOneBlock<long, long, phi::kps::AddFunctor<long>, 2>                  190     1.08 / 0.01 / 0.02 / 0.00 / 0.05          
+void precomputed_convolve_sgemm<__half, 128, 6, 7, 3, 3, 5, 1, false>                       3       1.03 / 0.34 / 0.35 / 0.34 / 0.05          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::ScaleFunctor<float, float>, 1,...  350     0.98 / 0.00 / 0.00 / 0.00 / 0.04          
+void cask_cudnn::computeOffsetsKernel<true, false>                                          266     0.97 / 0.00 / 0.00 / 0.00 / 0.04          
+void cub::DeviceRadixSortDownsweepKernel<cub::DeviceRadixSortPolicy<int, int, int>::Pol...  40      0.92 / 0.02 / 0.03 / 0.02 / 0.04          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::FullFunctor<float, float>, 0, ...  300     0.90 / 0.00 / 0.01 / 0.00 / 0.04          
+void phi::funcs::ReduceHigherDimKernel<float, float, float, phi::kps::AddFunctor<float>...  90      0.88 / 0.01 / 0.04 / 0.00 / 0.04          
+void phi::funcs::SelectKernel<float, float, long, long, phi::IndexFunctor<float, long, ...  10      0.87 / 0.09 / 0.13 / 0.05 / 0.04          
+void cub::DeviceRadixSortDownsweepKernel<cub::DeviceRadixSortPolicy<float, int, int>::P...  40      0.87 / 0.02 / 0.03 / 0.02 / 0.04          
+cask_cudnn::computeBOffsetsKernel(cask_cudnn::ComputeBOffsetsParams)                        276     0.87 / 0.00 / 0.00 / 0.00 / 0.04          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::dgrad::Kernel_traits<xmma_cudn...  10      0.82 / 0.08 / 0.09 / 0.08 / 0.04          
+void cub::DeviceRadixSortSingleTileKernel<cub::DeviceRadixSortPolicy<int, int, int>::Po...  60      0.81 / 0.01 / 0.02 / 0.01 / 0.04          
+void tensorTransformGeneric<__half, __half, float, true, false, false, (cudnnKernelData...  27      0.81 / 0.03 / 0.03 / 0.03 / 0.04          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::DivideFunctor<float, void>, floa...  160     0.74 / 0.00 / 0.03 / 0.00 / 0.03          
+void cudnn::ops::nchwToNhwcKernel<float, __half, float, false, true, (cudnnKernelDataTy...  16      0.69 / 0.04 / 0.05 / 0.03 / 0.03          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::dgrad::Kernel_traits<xmma_cudn...  4       0.68 / 0.17 / 0.17 / 0.17 / 0.03          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::dgrad::Kernel_traits<xmma_cudn...  5       0.66 / 0.13 / 0.13 / 0.13 / 0.03          
+void cutlass_cudnn::Kernel<cutlass_cudnn::reduction::kernel::ReduceSplitK<cutlass_cudnn...  40      0.63 / 0.02 / 0.05 / 0.01 / 0.03          
+_ZN13cutlass_cudnn6KernelINS_4conv6kernel23ImplicitGemmConvolutionINS1_11threadblock21I...  3       0.63 / 0.21 / 0.21 / 0.21 / 0.03          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  11      0.61 / 0.06 / 0.07 / 0.04 / 0.03          
+void xmma_cudnn::ext::implicit_gemm::strided_dgrad_indexed::kernel_helper_stage_3<xmma_...  23      0.56 / 0.02 / 0.03 / 0.01 / 0.02          
+void cutlass::Kernel<cutlass_70_tensorop_f16_s884gemm_f16_128x64_nt_align1>                 10      0.55 / 0.06 / 0.06 / 0.05 / 0.02          
+void phi::funcs::VectorizedElementwiseKernel<long, phi::FullFunctor<long, long>, 0, 1, 2>   212     0.54 / 0.00 / 0.00 / 0.00 / 0.02          
+_ZN13cutlass_cudnn6KernelINS_4conv6kernel23ImplicitGemmConvolutionINS1_11threadblock21I...  11      0.53 / 0.05 / 0.06 / 0.04 / 0.02          
+void cutlass::Kernel<cutlass_70_tensorop_f16_s884gemm_f16_128x64_nn_align8>                 10      0.52 / 0.05 / 0.05 / 0.05 / 0.02          
+void cub::DeviceRadixSortUpsweepKernel<cub::DeviceRadixSortPolicy<float, int, int>::Pol...  60      0.51 / 0.01 / 0.01 / 0.01 / 0.02          
+void cub::DeviceRadixSortUpsweepKernel<cub::DeviceRadixSortPolicy<int, int, int>::Polic...  60      0.50 / 0.01 / 0.01 / 0.01 / 0.02          
+cask_cudnn::computeWgradOffsetsKernel(cask_cudnn::ComputeWgradOffsetsParams)                121     0.50 / 0.00 / 0.00 / 0.00 / 0.02          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  13      0.50 / 0.04 / 0.05 / 0.03 / 0.02          
+void cutlass::Kernel<cutlass_70_tensorop_f16_s884gemm_f16_64x64_nn_align1>                  10      0.47 / 0.05 / 0.05 / 0.05 / 0.02          
+void cudnn::ops::scalePackedTensor_kernel<float, float>                                     10      0.47 / 0.05 / 0.07 / 0.02 / 0.02          
+void phi::funcs::GetBlockCountKernel<bool, long, 4>                                         140     0.47 / 0.00 / 0.00 / 0.00 / 0.02          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::GreaterThanFunctor<float, bool>,...  100     0.46 / 0.00 / 0.02 / 0.00 / 0.02          
+void phi::funcs::GatherCUDAKernel<float, long>                                              110     0.45 / 0.00 / 0.01 / 0.00 / 0.02          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::dgrad::Kernel_traits<xmma_cudn...  4       0.43 / 0.11 / 0.11 / 0.11 / 0.02          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::LogicalAndFunctor<bool>, bool, 2...  130     0.43 / 0.00 / 0.01 / 0.00 / 0.02          
+void phi::funcs::VectorizedElementwiseKernel<int, phi::CondFunctor<int>, 3, 1, 4>           140     0.42 / 0.00 / 0.00 / 0.00 / 0.02          
+void phi::funcs::ReduceAnyKernel<float, float, float, phi::kps::MulFunctor<float>, phi:...  40      0.41 / 0.01 / 0.05 / 0.00 / 0.02          
+void cub::DeviceRadixSortUpsweepKernel<cub::DeviceRadixSortPolicy<float, int, int>::Pol...  40      0.39 / 0.01 / 0.01 / 0.01 / 0.02          
+volta_fp16_s884gemm_fp16_64x64_ldg8_f2f_nt                                                  10      0.39 / 0.04 / 0.04 / 0.04 / 0.02          
+void cub::DeviceRadixSortUpsweepKernel<cub::DeviceRadixSortPolicy<int, int, int>::Polic...  40      0.38 / 0.01 / 0.01 / 0.01 / 0.02          
+void phi::funcs::GatherCUDAKernel<float, int>                                               100     0.37 / 0.00 / 0.00 / 0.00 / 0.02          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::NotEqualFunctor<int, bool>, bool...  120     0.37 / 0.00 / 0.00 / 0.00 / 0.02          
+void xmma_cudnn::gemm::split_k_kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_...  29      0.37 / 0.01 / 0.02 / 0.01 / 0.02          
+volta_fp16_scudnn_fp16_128x128_stridedB_interior_nn_v1                                      6       0.36 / 0.06 / 0.07 / 0.05 / 0.02          
+volta_fp16_s884gemm_fp16_128x128_ldg8_f2f_stages_32x1_tn                                    10      0.36 / 0.04 / 0.04 / 0.04 / 0.02          
+void phi::funcs::GatherCUDAKernel<int, int>                                                 100     0.35 / 0.00 / 0.00 / 0.00 / 0.02          
+volta_s884cudnn_fp16_64x64_sliced1x4_ldg8_wgrad_idx_exp_interior_nhwc_nt_v1                 1       0.34 / 0.34 / 0.34 / 0.34 / 0.01          
+void cutlass::Kernel<cutlass_70_tensorop_f16_s884gemm_f16_64x64_tn_align1>                  10      0.33 / 0.03 / 0.03 / 0.03 / 0.01          
+volta_fp16_s884cudnn_fp16_256x64_ldg8_dgrad_Dgrad1x1_interior_nchw_nt_v1                    5       0.32 / 0.06 / 0.17 / 0.03 / 0.01          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  80      0.31 / 0.00 / 0.02 / 0.00 / 0.01          
+void phi::funcs::DistributionKernel<int, phi::funcs::uniform_distribution<unsigned int>...  80      0.31 / 0.00 / 0.01 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::EqualFunctor<long, bool>, bool, ...  104     0.30 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::AddFunctor<float>, float, 2, 1, ...  44      0.30 / 0.01 / 0.01 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::EqualFunctor<int, bool>, bool, 2...  90      0.29 / 0.00 / 0.00 / 0.00 / 0.01          
+void cudnn::ops::nhwcToNchwKernel<float, float, float, true, false, (cudnnKernelDataTyp...  2       0.29 / 0.14 / 0.15 / 0.13 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MultiplyFunctor<float>, float, 2...  90      0.28 / 0.00 / 0.00 / 0.00 / 0.01          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::fprop::Kernel_traits<xmma_cudn...  2       0.28 / 0.14 / 0.23 / 0.06 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::kps::IdentityFunctor<float, float>, flo...  40      0.28 / 0.01 / 0.02 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MaximumFunctor<float>, float, 2,...  34      0.28 / 0.01 / 0.02 / 0.00 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::ClipFunctor<float>, 1, 1, 4>       40      0.28 / 0.01 / 0.03 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MinimumFunctor<float>, float, 2,...  34      0.28 / 0.01 / 0.02 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::GreaterThanFunctor<long, bool>, ...  78      0.24 / 0.00 / 0.00 / 0.00 / 0.01          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  80      0.24 / 0.00 / 0.00 / 0.00 / 0.01          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  80      0.24 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<int, phi::CastFunctor<long, int>, 1, 1, 2>     80      0.24 / 0.00 / 0.00 / 0.00 / 0.01          
+void cudnn::ops::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataTyp...  4       0.23 / 0.06 / 0.06 / 0.06 / 0.01          
+void xmma_cudnn::gemm::split_k_kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_...  16      0.23 / 0.01 / 0.04 / 0.01 / 0.01          
+void phi::SwapRepeatKernel<int, int>                                                        80      0.22 / 0.00 / 0.01 / 0.00 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::CondFunctor<float>, 3, 1, 4>       40      0.22 / 0.01 / 0.03 / 0.00 / 0.01          
+void phi::funcs::ForRangeElemwiseOpGridIsOne<phi::DenseMomentumFunctor<float, float, fl...  70      0.22 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::funcs::CudaLogFunctor<float>, ...  60      0.22 / 0.00 / 0.01 / 0.00 / 0.01          
+void phi::funcs::ForRangeElemwiseOp<phi::BoxDecodeAndClipFunctor<float> >                   20      0.22 / 0.01 / 0.01 / 0.01 / 0.01          
+void xmma_cudnn::gemm::kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_traits<x...  1       0.21 / 0.21 / 0.21 / 0.21 / 0.01          
+void phi::funcs::GetBlockCountKernel<float, long, 4>                                        10      0.20 / 0.02 / 0.03 / 0.01 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<long, phi::CastFunctor<int, long>, 1, 1, 2>    30      0.19 / 0.01 / 0.03 / 0.00 / 0.01          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  40      0.19 / 0.00 / 0.01 / 0.00 / 0.01          
+void phi::funcs::GatherCUDAKernel<int, long>                                                50      0.18 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::StackCudaKernel<float, int, phi::funcs::ConstPointerArray<float, (phi:...  40      0.18 / 0.00 / 0.01 / 0.00 / 0.01          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  40      0.17 / 0.00 / 0.01 / 0.00 / 0.01          
+void phi::funcs::ReduceHigherDimKernel<long, long, long, phi::kps::AddFunctor<long>, ph...  17      0.17 / 0.01 / 0.03 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::EqualFunctor<float, bool>, bool,...  20      0.17 / 0.01 / 0.02 / 0.01 / 0.01          
+_ZN13cutlass_cudnn6KernelINS_4conv6kernel23ImplicitGemmConvolutionINS1_11threadblock21I...  4       0.17 / 0.04 / 0.05 / 0.04 / 0.01          
+void phi::funcs::TilingSwapDim1And2<float, 256, 32, 32, int>                                20      0.17 / 0.01 / 0.01 / 0.01 / 0.01          
+void phi::funcs::GetBlockCountKernel<int, long, 4>                                          40      0.16 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::GatherNdCUDAKernel<float, long>                                            20      0.15 / 0.01 / 0.02 / 0.01 / 0.01          
+void phi::funcs::ScatterNdCUDAKernel<float, long>                                           20      0.15 / 0.01 / 0.01 / 0.00 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<long, phi::ScaleFunctor<long, long>, 1, 1, 2>  42      0.15 / 0.00 / 0.00 / 0.00 / 0.01          
+_ZN13cutlass_cudnn6KernelINS_4conv6kernel23ImplicitGemmConvolutionINS1_11threadblock21I...  1       0.15 / 0.15 / 0.15 / 0.15 / 0.01          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  40      0.15 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::SplitTensorWithDifferentShape<float, int, phi::funcs::PointerArray<flo...  20      0.14 / 0.01 / 0.01 / 0.00 / 0.01          
+void xmma_cudnn::gemm::split_k_kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_...  16      0.14 / 0.01 / 0.01 / 0.01 / 0.01          
+void phi::funcs::ScatterCUDAKernel<int, int>                                                40      0.14 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::LessThanFunctor<float, bool>, bo...  40      0.14 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::GreaterEqualFunctor<float, bool>...  40      0.14 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::ReduceAnyKernel<float, float, float, phi::kps::MaxFunctor<float>, phi:...  17      0.13 / 0.01 / 0.02 / 0.00 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::SigmoidFwdFunctor<float>, 2, 2...  20      0.13 / 0.01 / 0.01 / 0.01 / 0.01          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::LessThanFunctor<long, bool>, boo...  42      0.13 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::ReduceHigherDimKernel<float, float, float, phi::kps::MaxFunctor<float>...  17      0.12 / 0.01 / 0.01 / 0.01 / 0.01          
+void cub::DeviceReduceSingleTileKernel<cub::DeviceReducePolicy<float, float, int, phi::...  30      0.12 / 0.00 / 0.00 / 0.00 / 0.01          
+void xmma_cudnn::ext::implicit_gemm::strided_dgrad_indexed::kernel_helper_stage_1<xmma_...  23      0.12 / 0.01 / 0.01 / 0.00 / 0.01          
+void phi::funcs::ScatterCUDAKernel<float, long>                                             30      0.12 / 0.00 / 0.00 / 0.00 / 0.01          
+void phi::funcs::VectorizedElementwiseKernel<int, phi::ScaleFunctor<int, int>, 1, 1, 4>     40      0.11 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::ForRangeElemwiseOpGridIsOne<phi::RandpermKernel<int, phi::GPUContext>(...  44      0.11 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::ScatterInitCUDAKernel<float, long>                                         30      0.11 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::GatherCUDAKernel<long, long>                                               30      0.11 / 0.00 / 0.00 / 0.00 / 0.00          
+void cudnn::ops::genericTranspose_kernel<__half, __half, float, true, (cudnnKernelDataT...  9       0.10 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::SigmoidBwdFunctor<float>, 3, 2...  20      0.10 / 0.01 / 0.01 / 0.00 / 0.00          
+void xmma_cudnn::gemm::split_k_kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_...  7       0.10 / 0.01 / 0.02 / 0.01 / 0.00          
+void phi::funcs::ForRangeElemwiseOp<phi::RandpermKernel<int, phi::GPUContext>(phi::GPUC...  36      0.10 / 0.00 / 0.00 / 0.00 / 0.00          
+void xmma_cudnn::ext::implicit_gemm::strided_dgrad_indexed::kernel_helper_stage_0<xmma_...  23      0.10 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::WarpSoftmaxForward<float, long, float, float, 7, (phi::SoftmaxMode)2>             10      0.10 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<int, phi::CastFunctor<bool, int>, 1, 1, 4>     20      0.09 / 0.00 / 0.01 / 0.00 / 0.00          
+void phi::funcs::ConcatTensorWithSameShape<int, 16, phi::funcs::AlignedPointerWrapper<f...  18      0.08 / 0.00 / 0.01 / 0.00 / 0.00          
+void xmma_cudnn::ext::implicit_gemm::strided_dgrad_indexed::kernel_helper_stage_2<xmma_...  23      0.08 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::GatherCUDAKernel<long, int>                                                20      0.08 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::AbsGradCUDAFunctor<float>, 2, ...  20      0.08 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::GreaterEqualFunctor<int, bool>, ...  20      0.07 / 0.00 / 0.00 / 0.00 / 0.00          
+void Eigen::internal::EigenMetaKernel<Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eige...  20      0.07 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::CastFunctor<int, float>, 1, 1, 4>  20      0.07 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::CudaAbsFunctor<float, void>, 1...  20      0.06 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MultiplyFunctor<float>, float, 2...  10      0.06 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MultiplyGradFunctor<float>, floa...  10      0.06 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::Range<float, float>                                                               20      0.06 / 0.00 / 0.00 / 0.00 / 0.00          
+void splitKreduce_kernel<__half, __half, float, __half>                                     10      0.06 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::Range<long, long>                                                                 20      0.06 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::MeanRunKernel<float>                                                              20      0.06 / 0.00 / 0.00 / 0.00 / 0.00          
+void nchwAddPaddingKernel<__half, __half, float, true, (cudnnKernelDataType_t)0>            14      0.06 / 0.00 / 0.01 / 0.00 / 0.00          
+void phi::funcs::ForRangeElemwiseOp<phi::funcs::RangeInitFunctor>                           20      0.06 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<long, phi::CastFunctor<bool, long>, 1, 1, 2>   20      0.05 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::SoftmaxWithCrossEntropyGradHardLabel<float, long>                                 10      0.05 / 0.01 / 0.01 / 0.01 / 0.00          
+void cub::DeviceReduceSingleTileKernel<cub::DeviceReducePolicy<long, long, int, phi::kp...  10      0.05 / 0.01 / 0.01 / 0.01 / 0.00          
+void cub::DeviceReduceSingleTileKernel<cub::DeviceReducePolicy<float, float, int, phi::...  10      0.05 / 0.01 / 0.01 / 0.00 / 0.00          
+void cub::DeviceReduceKernel<cub::DeviceReducePolicy<float, float, int, phi::kps::AddFu...  10      0.05 / 0.01 / 0.01 / 0.00 / 0.00          
+void phi::SumArrayCUDAKernel<float>                                                         10      0.05 / 0.00 / 0.01 / 0.00 / 0.00          
+void phi::funcs::TilingSwapDim1And2<unsigned int, 32, 32, 15, int>                          6       0.05 / 0.01 / 0.01 / 0.01 / 0.00          
+void cub::DeviceReduceSingleTileKernel<cub::DeviceReducePolicy<float, float, int, phi::...  10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+void cask_cudnn::computeOffsetsKernel<true, true>                                           10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::TilingSwapDim1And2<unsigned int, 32, 15, 32, int>                          6       0.04 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::AddFunctor<long>, long, 2, 1, 2, 2>  10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::ConcatTensorWithSameShape<int, 8, phi::funcs::AlignedPointerWrapper<lo...  10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::kps::IdentityFunctor<long, long>, long,...  10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::BitwiseOrFunctor<bool>, bool, 2,...  10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+cask_cudnn::computeWgradSplitKOffsetsKernel(cask_cudnn::ComputeSplitKOffsetsParams)         10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+cask_cudnn::computeWgradBOffsetsKernel(cask_cudnn::ComputeWgradBOffsetsParams)              10      0.04 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MinimumFunctor<float>, float, 2,...  6       0.04 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MaximumFunctor<float>, float, 2,...  6       0.04 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::FillOutputKernel<int, float>                                                      10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MultiplyFunctor<long>, long, 2, ...  10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<float, phi::kps::IdentityFunctor<float, fl...  10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::NotEqualFunctor<long, bool>, boo...  10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::GreaterEqualFunctor<long, bool>,...  10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedBroadcastKernel<phi::funcs::MultiplyGradFunctor<float>, floa...  10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::StackCudaKernel<int, int, phi::funcs::ConstPointerArray<int, (phi::fun...  8       0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::InverseAndMemset<float>                                                           10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<bool, phi::funcs::BitwiseNotFunctor<bool>,...  10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<bool, phi::CastFunctor<bool, bool>, 1, 1, 4>   10      0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::StackCudaKernel<int, int, phi::funcs::ConstPointerArray<int, (phi::fun...  7       0.03 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::TilingSwapDim1And2<unsigned int, 64, 64, 15, int>                          3       0.02 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::TilingSwapDim1And2<unsigned int, 64, 15, 64, int>                          3       0.02 / 0.01 / 0.01 / 0.01 / 0.00          
+void cub::DeviceReduceKernel<cub::DeviceReducePolicy<float, float, int, phi::kps::MaxFu...  3       0.02 / 0.01 / 0.01 / 0.00 / 0.00          
+void xmma_cudnn::gemm::split_k_kernel<xmma_cudnn::implicit_gemm::wgrad_indexed::Kernel_...  1       0.02 / 0.02 / 0.02 / 0.02 / 0.00          
+void cub::DeviceReduceSingleTileKernel<cub::DeviceReducePolicy<float, float, int, phi::...  3       0.01 / 0.00 / 0.00 / 0.00 / 0.00          
+void cudnn::cnn::kern_precompute_indices<false>                                             3       0.01 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::StackCudaKernel<int, int, phi::funcs::ConstPointerArray<int, (phi::fun...  3       0.01 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::VectorizedElementwiseKernel<long, phi::kps::IdentityFunctor<long, long...  3       0.01 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::StackCudaKernel<int, int, phi::funcs::ConstPointerArray<int, (phi::fun...  2       0.01 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::TilingSwapDim1And2<unsigned int, 128, 8, 128, int>                         1       0.01 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::TilingSwapDim1And2<unsigned int, 128, 128, 8, int>                         1       0.01 / 0.01 / 0.01 / 0.01 / 0.00          
+void phi::funcs::ConcatTensorWithSameShape<int, 8, phi::funcs::AlignedPointerWrapper<fl...  1       0.00 / 0.00 / 0.00 / 0.00 / 0.00          
+void phi::funcs::ConcatTensorWithSameShape<int, 4, phi::funcs::AlignedPointerWrapper<fl...  1       0.00 / 0.00 / 0.00 / 0.00 / 0.00          
+------------------------------------------------------------------------------------------  ------  ----------------------------------------  
+
+
+-------------------------------------------------Memory Manipulation Summary-------------------------------------------------
+Time unit: ms
+---------------------------------  ------  ----------------------------------------  ----------------------------------------  
+Name                               Calls   CPU Total / Avg / Max / Min / Ratio(%)    GPU Total / Avg / Max / Min / Ratio(%)    
+---------------------------------  ------  ----------------------------------------  ----------------------------------------  
+GpuMemcpyAsync:CPU->GPU            280     2.41 / 0.01 / 0.03 / 0.01 / 0.08          0.32 / 0.00 / 0.00 / 0.00 / 0.01          
+GpuMemcpyAsync(same_gpu):GPU->GPU  520     6.16 / 0.01 / 0.03 / 0.01 / 0.20          22.59 / 0.04 / 0.53 / 0.00 / 0.95         
+GpuMemcpySync:GPU->CPU             84      4.28 / 0.05 / 0.19 / 0.02 / 0.14          0.10 / 0.00 / 0.00 / 0.00 / 0.00          
+GpuMemcpySync:CPU->GPU             20      0.41 / 0.02 / 0.03 / 0.02 / 0.01          0.02 / 0.00 / 0.00 / 0.00 / 0.00          
+GpuMemcpyAsync:GPU->CPU            230     720.94 / 3.13 / 63.86 / 0.01 / 23.98      67.81 / 0.29 / 3.73 / 0.00 / 2.84         
+GpuMemcpySync:CUDAPinned->GPU      80      20.36 / 0.25 / 2.57 / 0.02 / 0.68         18.09 / 0.23 / 2.50 / 0.00 / 0.76         
+BufferedReader:MemoryCopy          9       48.91 / 5.43 / 7.43 / 4.08 / 1.63         0.00 / 0.00 / 0.00 / 0.00 / 0.00          
+---------------------------------  ------  ----------------------------------------  ----------------------------------------  
+
+
+--------------------------------------------------------------UserDefined Summary---------------------------------------------------------------
+Time unit: ms
+----------------------------------------------------  ------  ----------------------------------------  ----------------------------------------  
+Name                                                  Calls   CPU Total / Avg / Max / Min / Ratio(%)    GPU Total / Avg / Max / Min / Ratio(%)    
+----------------------------------------------------  ------  ----------------------------------------  ----------------------------------------  
+-----------------------------------------------------------Thread: All threads merged-----------------------------------------------------------
+MaskRCNN::bbox_head                                   10      778.16 / 77.82 / 90.12 / 74.27 / 25.88    671.90 / 67.19 / 69.65 / 66.06 / 28.18    
+BBox::head                                            10      38.60 / 3.86 / 4.92 / 3.57 / 1.28         545.88 / 54.59 / 54.63 / 54.52 / 22.90    
+MaskRCNN::rpn_head                                    10      286.52 / 28.65 / 30.69 / 25.98 / 9.53     142.86 / 14.29 / 15.00 / 13.62 / 5.99     
+BBox::roi_extractor                                   10      2.64 / 0.26 / 0.34 / 0.24 / 0.09          102.12 / 10.21 / 12.73 / 9.04 / 4.28      
+RPNHead::gen_proposal                                 10      153.53 / 15.35 / 17.35 / 13.74 / 5.11     96.66 / 9.67 / 10.41 / 8.81 / 4.05        
+MaskRCNN::mask_head                                   10      243.99 / 24.40 / 40.71 / 17.02 / 8.11     46.29 / 4.63 / 7.37 / 2.22 / 1.94         
+MaskHead::head                                        10      21.59 / 2.16 / 14.98 / 0.66 / 0.72        37.33 / 3.73 / 6.06 / 1.71 / 1.57         
+RPNHead::rpn_feat                                     10      11.50 / 1.15 / 1.29 / 1.07 / 0.38         21.35 / 2.13 / 2.70 / 1.39 / 0.90         
+RPNHead::get_loss                                     10      95.10 / 9.51 / 10.86 / 8.81 / 3.16        20.69 / 2.07 / 2.47 / 1.89 / 0.87         
+RPNHead::rpn_target_assign                            10      85.01 / 8.50 / 9.81 / 7.86 / 2.83         19.24 / 1.92 / 2.30 / 1.76 / 0.81         
+BBox::bbox_assigner                                   10      58.22 / 5.82 / 6.36 / 5.39 / 1.94         7.20 / 0.72 / 0.73 / 0.71 / 0.30          
+BBox::get_loss                                        10      671.66 / 67.17 / 80.21 / 63.76 / 22.34    3.04 / 0.30 / 0.31 / 0.30 / 0.13          
+MaskHead::assign_mask                                 10      173.09 / 17.31 / 24.16 / 13.03 / 5.76     3.00 / 0.30 / 0.40 / 0.20 / 0.13          
+MaskHead::mask_fcn_logits                             10      9.02 / 0.90 / 0.99 / 0.83 / 0.30          2.33 / 0.23 / 0.36 / 0.12 / 0.10          
+MaskHead::get_loss                                    10      38.59 / 3.86 / 16.81 / 0.56 / 1.28        1.88 / 0.19 / 0.26 / 0.12 / 0.08          
+MaskHead::roi_extractor                               10      0.55 / 0.05 / 0.07 / 0.04 / 0.02          1.75 / 0.17 / 0.28 / 0.08 / 0.07          
+MaskHead::assign_mask::rasterize_polygons_within_box  20      142.03 / 7.10 / 13.59 / 1.20 / 4.72       1.61 / 0.08 / 0.15 / 0.01 / 0.07          
+RPNHead::generate_pos_ind                             10      0.72 / 0.07 / 0.08 / 0.07 / 0.02          0.20 / 0.02 / 0.02 / 0.02 / 0.01          
+RPNHead::generate_valid_ind                           10      0.61 / 0.06 / 0.08 / 0.06 / 0.02          0.17 / 0.02 / 0.02 / 0.02 / 0.01          
+
+
+
+[09/19 01:03:17] ppdet.engine INFO: Epoch: [0] [   19/12500] learning_rate: 0.000002 loss_mask: 0.373141 loss_rpn_cls: 0.168957 loss_rpn_reg: 0.171994 loss_bbox_cls: 0.269000 loss_bbox_reg: 0.297298 loss: 1.280390 eta: 2:55:46 batch_cost: 9.3877 data_cost: 0.0009 ips: 0.2130 images/s
+>>> [1024]
+[09/19 01:03:18] ppdet.engine INFO: Epoch: [0] [   20/12500] learning_rate: 0.000002 loss_mask: 0.851655 loss_rpn_cls: 0.065897 loss_rpn_reg: 0.278701 loss_bbox_cls: 0.128805 loss_bbox_reg: 0.110527 loss: 1.435584 eta: 2:50:16 batch_cost: 0.2910 data_cost: 0.0003 ips: 6.8717 images/s
+>>> [1024]
+[09/19 01:03:18] ppdet.engine INFO: Epoch: [0] [   21/12500] learning_rate: 0.000002 loss_mask: 0.538167 loss_rpn_cls: 0.057354 loss_rpn_reg: 0.029512 loss_bbox_cls: 0.122837 loss_bbox_reg: 0.172394 loss: 0.920263 eta: 2:45:06 batch_cost: 0.2742 data_cost: 0.0006 ips: 7.2938 images/s
+>>> [1024]
+[09/19 01:03:18] ppdet.engine INFO: Epoch: [0] [   22/12500] learning_rate: 0.000002 loss_mask: 1.111192 loss_rpn_cls: 0.106414 loss_rpn_reg: 0.304873 loss_bbox_cls: 0.215389 loss_bbox_reg: 0.294566 loss: 2.032433 eta: 2:40:33 batch_cost: 0.2924 data_cost: 0.0011 ips: 6.8389 images/s
+>>> [1024]
+[09/19 01:03:19] ppdet.engine INFO: Epoch: [0] [   23/12500] learning_rate: 0.000002 loss_mask: 0.781872 loss_rpn_cls: 0.097298 loss_rpn_reg: 0.203622 loss_bbox_cls: 0.301253 loss_bbox_reg: 0.361471 loss: 1.745516 eta: 2:36:35 batch_cost: 0.3159 data_cost: 0.0012 ips: 6.3308 images/s
+>>> [1024]
+[09/19 01:03:19] ppdet.engine INFO: Epoch: [0] [   24/12500] learning_rate: 0.000002 loss_mask: 0.536766 loss_rpn_cls: 0.079130 loss_rpn_reg: 0.091204 loss_bbox_cls: 0.059792 loss_bbox_reg: 0.067428 loss: 0.834319 eta: 2:32:35 batch_cost: 0.2738 data_cost: 0.0005 ips: 7.3034 images/s
+>>> [1024]
+[09/19 01:03:19] ppdet.engine INFO: Epoch: [0] [   25/12500] learning_rate: 0.000003 loss_mask: 0.665978 loss_rpn_cls: 0.114358 loss_rpn_reg: 0.238923 loss_bbox_cls: 0.137513 loss_bbox_reg: 0.224442 loss: 1.381214 eta: 2:28:56 batch_cost: 0.2783 data_cost: 0.0010 ips: 7.1869 images/s
+>>> [1024]
+[09/19 01:03:19] ppdet.engine INFO: Epoch: [0] [   26/12500] learning_rate: 0.000003 loss_mask: 1.066202 loss_rpn_cls: 0.055749 loss_rpn_reg: 0.090782 loss_bbox_cls: 0.112424 loss_bbox_reg: 0.136299 loss: 1.461456 eta: 2:25:39 batch_cost: 0.2909 data_cost: 0.0006 ips: 6.8758 images/s
+>>> [1024]
+[09/19 01:03:20] ppdet.engine INFO: Epoch: [0] [   27/12500] learning_rate: 0.000003 loss_mask: 1.209804 loss_rpn_cls: 0.049523 loss_rpn_reg: 0.053361 loss_bbox_cls: 0.092542 loss_bbox_reg: 0.134957 loss: 1.540186 eta: 2:22:32 batch_cost: 0.2830 data_cost: 0.0007 ips: 7.0680 images/s
+>>> [1024]
+[09/19 01:03:20] ppdet.engine INFO: Epoch: [0] [   28/12500] learning_rate: 0.000003 loss_mask: 0.801021 loss_rpn_cls: 0.034374 loss_rpn_reg: 0.035663 loss_bbox_cls: 0.026146 loss_bbox_reg: 0.049621 loss: 0.946825 eta: 2:19:33 batch_cost: 0.2714 data_cost: 0.0004 ips: 7.3687 images/s
+>>> [1024]
+[09/19 01:03:21] ppdet.engine INFO: Epoch: [0] [   29/12500] learning_rate: 0.000003 loss_mask: 0.720241 loss_rpn_cls: 0.140211 loss_rpn_reg: 0.143343 loss_bbox_cls: 0.270723 loss_bbox_reg: 0.442811 loss: 1.717329 eta: 2:16:48 batch_cost: 0.2764 data_cost: 0.0007 ips: 7.2351 images/s
+>>> [1024]
+[09/19 01:03:21] ppdet.engine INFO: Epoch: [0] [   30/12500] learning_rate: 0.000003 loss_mask: 0.824323 loss_rpn_cls: 0.091092 loss_rpn_reg: 0.081809 loss_bbox_cls: 0.117148 loss_bbox_reg: 0.226972 loss: 1.341345 eta: 2:14:22 batch_cost: 0.2962 data_cost: 0.0010 ips: 6.7529 images/s
+>>> [1024]
+[09/19 01:03:21] ppdet.engine INFO: Epoch: [0] [   31/12500] learning_rate: 0.000003 loss_mask: 0.449554 loss_rpn_cls: 0.083918 loss_rpn_reg: 0.188831 loss_bbox_cls: 0.106435 loss_bbox_reg: 0.172258 loss: 1.000997 eta: 2:12:06 batch_cost: 0.2996 data_cost: 0.0009 ips: 6.6749 images/s
+>>> [1024]
+[09/19 01:03:21] ppdet.engine INFO: Epoch: [0] [   32/12500] learning_rate: 0.000003 loss_mask: 0.593238 loss_rpn_cls: 0.062518 loss_rpn_reg: 0.080116 loss_bbox_cls: 0.233735 loss_bbox_reg: 0.468655 loss: 1.438262 eta: 2:10:01 batch_cost: 0.3059 data_cost: 0.0011 ips: 6.5387 images/s
+>>> [1024]
+[09/19 01:03:22] ppdet.engine INFO: Epoch: [0] [   33/12500] learning_rate: 0.000003 loss_mask: 1.082752 loss_rpn_cls: 0.018876 loss_rpn_reg: 0.084861 loss_bbox_cls: 0.074088 loss_bbox_reg: 0.148861 loss: 1.409438 eta: 2:08:05 batch_cost: 0.3103 data_cost: 0.0006 ips: 6.4460 images/s
+>>> [1024]
+[09/19 01:03:22] ppdet.engine INFO: Epoch: [0] [   34/12500] learning_rate: 0.000003 loss_mask: 0.496605 loss_rpn_cls: 0.094876 loss_rpn_reg: 0.051297 loss_bbox_cls: 0.102906 loss_bbox_reg: 0.237115 loss: 0.982799 eta: 2:06:10 batch_cost: 0.2955 data_cost: 0.0008 ips: 6.7671 images/s
+>>> [1024]
+[09/19 01:03:22] ppdet.engine INFO: Epoch: [0] [   35/12500] learning_rate: 0.000004 loss_mask: 0.728293 loss_rpn_cls: 0.034052 loss_rpn_reg: 0.020270 loss_bbox_cls: 0.036128 loss_bbox_reg: 0.061669 loss: 0.880412 eta: 2:04:16 batch_cost: 0.2808 data_cost: 0.0004 ips: 7.1231 images/s
+>>> [1024]
+[09/19 01:03:23] ppdet.engine INFO: Epoch: [0] [   36/12500] learning_rate: 0.000004 loss_mask: 0.727118 loss_rpn_cls: 0.647205 loss_rpn_reg: 0.165738 loss_bbox_cls: 0.299537 loss_bbox_reg: 0.176211 loss: 2.015809 eta: 2:02:23 batch_cost: 0.2645 data_cost: 0.0009 ips: 7.5608 images/s
+>>> [1024]
+[09/19 01:03:23] ppdet.engine INFO: Epoch: [0] [   37/12500] learning_rate: 0.000004 loss_mask: 0.971899 loss_rpn_cls: 0.096949 loss_rpn_reg: 0.172331 loss_bbox_cls: 0.143237 loss_bbox_reg: 0.267995 loss: 1.652412 eta: 2:00:54 batch_cost: 0.3187 data_cost: 0.0014 ips: 6.2759 images/s
+>>> [1024]
+[09/19 01:03:23] ppdet.engine INFO: Epoch: [0] [   38/12500] learning_rate: 0.000004 loss_mask: 0.641525 loss_rpn_cls: 0.040626 loss_rpn_reg: 0.133007 loss_bbox_cls: 0.287733 loss_bbox_reg: 0.411294 loss: 1.514184 eta: 1:59:23 batch_cost: 0.2987 data_cost: 0.0009 ips: 6.6963 images/s
+>>> [1024]
+[09/19 01:03:24] ppdet.engine INFO: Epoch: [0] [   39/12500] learning_rate: 0.000004 loss_mask: 0.628922 loss_rpn_cls: 0.030574 loss_rpn_reg: 0.115875 loss_bbox_cls: 0.091469 loss_bbox_reg: 0.148770 loss: 1.015610 eta: 1:57:49 batch_cost: 0.2776 data_cost: 0.0006 ips: 7.2056 images/s
+>>> [1024]
+============================================Perf Summary============================================
+Reader Ratio: 0.101%
+Time Unit: s, IPS Unit: steps/s
+|                 |       avg       |       max       |       min       |
+|   reader_cost   |     0.00075     |     0.00136     |     0.00031     |
+|    batch_cost   |     0.74946     |     9.38649     |     0.26517     |
+|       ips       |     1.33430     |     3.77117     |     0.10654     |
